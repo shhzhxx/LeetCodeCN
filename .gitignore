@@ -1,0 +1,7 @@
+# protect secret files
+*.cfg
+*.json
+
+# but upload example files
+!example.config.cfg
+!example.cookies.json
