@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-01-24 17:35:32
+**Update Time:** 2019-01-24 19:42:50
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 

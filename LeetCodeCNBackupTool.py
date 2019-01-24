@@ -376,7 +376,7 @@ class Archive:
             file_path = os.path.join(CWD, 'solutions', str_problem_id + '_' + sub_name)
             if not os.path.exists(file_path):
                 os.makedirs(file_path)
-            num_files = os.listdir()
+            num_files = os.listdir(file_path)
             file_name = sub_name + '_' + str(len(num_files)).zfill(2) + '_' + str(sub['runtime']) + 'ms' + FILE_EXT[sub['lang']]
 
             with open(os.path.join(file_path, file_name), 'w', encoding='utf-8') as f:
