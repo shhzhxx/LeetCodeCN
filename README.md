@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-01-24 19:42:50
+**Update Time:** 2019-01-25 08:34:15
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |esay|medium|hard|
-|26|18|2|
+|28|18|2|
 
-**Total Progress:** 46 / 809
+**Total Progress:** 48 / 809
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -30,7 +30,7 @@
 |4|[median-of-two-sorted-arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays)||[:book:](https://leetcode-cn.com/articles/median-of-two-sorted-arrays)|Hard|
 |5|[longest-palindromic-substring](https://leetcode-cn.com/problems/longest-palindromic-substring)||[:book:](https://leetcode-cn.com/articles/longest-palindromic-substring)|Medium|
 |6|[zigzag-conversion](https://leetcode-cn.com/problems/zigzag-conversion)||[:book:](https://leetcode-cn.com/articles/zigzag-conversion)|Medium|
-|7|[reverse-integer](https://leetcode-cn.com/problems/reverse-integer)||[:book:](https://leetcode-cn.com/articles/reverse-integer)|Easy|
+|7|[reverse-integer](https://leetcode-cn.com/problems/reverse-integer)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0007_reverse-integer/)|[:book:](https://leetcode-cn.com/articles/reverse-integer)|Easy|
 |8|[string-to-integer-atoi](https://leetcode-cn.com/problems/string-to-integer-atoi)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0008_string-to-integer-atoi/)||Medium|
 |9|[palindrome-number](https://leetcode-cn.com/problems/palindrome-number)||[:book:](https://leetcode-cn.com/articles/palindrome-number)|Easy|
 |10|[regular-expression-matching](https://leetcode-cn.com/problems/regular-expression-matching)|||Hard|
@@ -144,7 +144,7 @@
 |118|[pascals-triangle](https://leetcode-cn.com/problems/pascals-triangle)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0118_pascals-triangle/)|[:book:](https://leetcode-cn.com/articles/pascals-triangle)|Easy|
 |119|[pascals-triangle-ii](https://leetcode-cn.com/problems/pascals-triangle-ii)|||Easy|
 |120|[triangle](https://leetcode-cn.com/problems/triangle)|||Medium|
-|121|[best-time-to-buy-and-sell-stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock)||[:book:](https://leetcode-cn.com/articles/best-time-to-buy-and-sell-stock)|Easy|
+|121|[best-time-to-buy-and-sell-stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0121_best-time-to-buy-and-sell-stock/)|[:book:](https://leetcode-cn.com/articles/best-time-to-buy-and-sell-stock)|Easy|
 |122|[best-time-to-buy-and-sell-stock-ii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0122_best-time-to-buy-and-sell-stock-ii/)|[:book:](https://leetcode-cn.com/articles/best-time-to-buy-and-sell-stock-ii)|Easy|
 |123|[best-time-to-buy-and-sell-stock-iii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii)|||Hard|
 |124|[binary-tree-maximum-path-sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum)|||Hard|
@@ -819,7 +819,7 @@
 |961|[n-repeated-element-in-size-2n-array](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array)|||Easy|
 |962|[maximum-width-ramp](https://leetcode-cn.com/problems/maximum-width-ramp)|||Medium|
 |963|[minimum-area-rectangle-ii](https://leetcode-cn.com/problems/minimum-area-rectangle-ii)|||Medium|
-|964|[least-operators-to-express-number](https://leetcode-cn.com/problems/least-operators-to-express-number)|||Hard|
+|964|[least-operators-to-express-number](https://leetcode-cn.com/problems/least-operators-to-express-number)||[:book:](https://leetcode-cn.com/articles/least-operators-to-express-number)|Hard|
 |965|[univalued-binary-tree](https://leetcode-cn.com/problems/univalued-binary-tree)||[:book:](https://leetcode-cn.com/articles/univalued-binary-tree)|Easy|
 |966|[vowel-spellchecker](https://leetcode-cn.com/problems/vowel-spellchecker)||[:book:](https://leetcode-cn.com/articles/vowel-spellchecker)|Medium|
 |967|[numbers-with-same-consecutive-differences](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences)||[:book:](https://leetcode-cn.com/articles/numbers-with-same-consecutive-differences)|Medium|
