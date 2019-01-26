@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-01-25 17:27:06
+**Update Time:** 2019-01-26 10:43:01
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |esay|medium|hard|
-|33|24|2|
+|38|25|2|
 
-**Total Progress:** 59 / 809
+**Total Progress:** 65 / 809
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -28,7 +28,7 @@
 |2|[add-two-numbers](https://leetcode-cn.com/problems/add-two-numbers)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0002_add-two-numbers/)|[:book:](https://leetcode-cn.com/articles/add-two-numbers)|Medium|
 |3|[longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters)||[:book:](https://leetcode-cn.com/articles/longest-substring-without-repeating-characters)|Medium|
 |4|[median-of-two-sorted-arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays)||[:book:](https://leetcode-cn.com/articles/median-of-two-sorted-arrays)|Hard|
-|5|[longest-palindromic-substring](https://leetcode-cn.com/problems/longest-palindromic-substring)||[:book:](https://leetcode-cn.com/articles/longest-palindromic-substring)|Medium|
+|5|[longest-palindromic-substring](https://leetcode-cn.com/problems/longest-palindromic-substring)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0005_longest-palindromic-substring/)|[:book:](https://leetcode-cn.com/articles/longest-palindromic-substring)|Medium|
 |6|[zigzag-conversion](https://leetcode-cn.com/problems/zigzag-conversion)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0006_zigzag-conversion/)|[:book:](https://leetcode-cn.com/articles/zigzag-conversion)|Medium|
 |7|[reverse-integer](https://leetcode-cn.com/problems/reverse-integer)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0007_reverse-integer/)|[:book:](https://leetcode-cn.com/articles/reverse-integer)|Easy|
 |8|[string-to-integer-atoi](https://leetcode-cn.com/problems/string-to-integer-atoi)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0008_string-to-integer-atoi/)||Medium|
@@ -76,7 +76,7 @@
 |50|[powx-n](https://leetcode-cn.com/problems/powx-n)|||Medium|
 |51|[n-queens](https://leetcode-cn.com/problems/n-queens)|||Hard|
 |52|[n-queens-ii](https://leetcode-cn.com/problems/n-queens-ii)|||Hard|
-|53|[maximum-subarray](https://leetcode-cn.com/problems/maximum-subarray)|||Easy|
+|53|[maximum-subarray](https://leetcode-cn.com/problems/maximum-subarray)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0053_maximum-subarray/)||Easy|
 |54|[spiral-matrix](https://leetcode-cn.com/problems/spiral-matrix)|||Medium|
 |55|[jump-game](https://leetcode-cn.com/problems/jump-game)|||Medium|
 |56|[merge-intervals](https://leetcode-cn.com/problems/merge-intervals)|||Medium|
@@ -93,7 +93,7 @@
 |67|[add-binary](https://leetcode-cn.com/problems/add-binary)|||Easy|
 |68|[text-justification](https://leetcode-cn.com/problems/text-justification)|||Hard|
 |69|[sqrtx](https://leetcode-cn.com/problems/sqrtx)|||Easy|
-|70|[climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs)|||Easy|
+|70|[climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0070_climbing-stairs/)||Easy|
 |71|[simplify-path](https://leetcode-cn.com/problems/simplify-path)|||Medium|
 |72|[edit-distance](https://leetcode-cn.com/problems/edit-distance)|||Hard|
 |73|[set-matrix-zeroes](https://leetcode-cn.com/problems/set-matrix-zeroes)|||Medium|
@@ -213,7 +213,7 @@
 |195|[tenth-line](https://leetcode-cn.com/problems/tenth-line)|||Easy|
 |196|[delete-duplicate-emails](https://leetcode-cn.com/problems/delete-duplicate-emails)||[:book:](https://leetcode-cn.com/articles/delete-duplicate-emails)|Easy|
 |197|[rising-temperature](https://leetcode-cn.com/problems/rising-temperature)||[:book:](https://leetcode-cn.com/articles/rising-temperature)|Easy|
-|198|[house-robber](https://leetcode-cn.com/problems/house-robber)|||Easy|
+|198|[house-robber](https://leetcode-cn.com/problems/house-robber)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0198_house-robber/)||Easy|
 |199|[binary-tree-right-side-view](https://leetcode-cn.com/problems/binary-tree-right-side-view)|||Medium|
 |200|[number-of-islands](https://leetcode-cn.com/problems/number-of-islands)|||Medium|
 |201|[bitwise-and-of-numbers-range](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range)|||Medium|
@@ -282,7 +282,7 @@
 |299|[bulls-and-cows](https://leetcode-cn.com/problems/bulls-and-cows)|||Medium|
 |300|[longest-increasing-subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence)|||Medium|
 |301|[remove-invalid-parentheses](https://leetcode-cn.com/problems/remove-invalid-parentheses)|||Hard|
-|303|[range-sum-query-immutable](https://leetcode-cn.com/problems/range-sum-query-immutable)|||Easy|
+|303|[range-sum-query-immutable](https://leetcode-cn.com/problems/range-sum-query-immutable)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0303_range-sum-query-immutable/)||Easy|
 |304|[range-sum-query-2d-immutable](https://leetcode-cn.com/problems/range-sum-query-2d-immutable)|||Medium|
 |306|[additive-number](https://leetcode-cn.com/problems/additive-number)|||Medium|
 |307|[range-sum-query-mutable](https://leetcode-cn.com/problems/range-sum-query-mutable)|||Medium|
@@ -612,7 +612,7 @@
 |743|[network-delay-time](https://leetcode-cn.com/problems/network-delay-time)|||Easy|
 |744|[find-smallest-letter-greater-than-target](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0744_find-smallest-letter-greater-than-target/)||Easy|
 |745|[prefix-and-suffix-search](https://leetcode-cn.com/problems/prefix-and-suffix-search)|||Hard|
-|746|[min-cost-climbing-stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs)|||Easy|
+|746|[min-cost-climbing-stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0746_min-cost-climbing-stairs/)||Easy|
 |747|[largest-number-at-least-twice-of-others](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others)|||Easy|
 |748|[shortest-completing-word](https://leetcode-cn.com/problems/shortest-completing-word)|||Easy|
 |749|[contain-virus](https://leetcode-cn.com/problems/contain-virus)|||Hard|
