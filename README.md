@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-01-26 10:43:01
+**Update Time:** 2019-01-27 19:30:55
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,15 +18,15 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |esay|medium|hard|
-|38|25|2|
+|38|35|2|
 
-**Total Progress:** 65 / 809
+**Total Progress:** 75 / 809
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
 |1|[two-sum](https://leetcode-cn.com/problems/two-sum)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0001_two-sum/)|[:book:](https://leetcode-cn.com/articles/two-sum)|Easy|
 |2|[add-two-numbers](https://leetcode-cn.com/problems/add-two-numbers)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0002_add-two-numbers/)|[:book:](https://leetcode-cn.com/articles/add-two-numbers)|Medium|
-|3|[longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters)||[:book:](https://leetcode-cn.com/articles/longest-substring-without-repeating-characters)|Medium|
+|3|[longest-substring-without-repeating-characters](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0003_longest-substring-without-repeating-characters/)|[:book:](https://leetcode-cn.com/articles/longest-substring-without-repeating-characters)|Medium|
 |4|[median-of-two-sorted-arrays](https://leetcode-cn.com/problems/median-of-two-sorted-arrays)||[:book:](https://leetcode-cn.com/articles/median-of-two-sorted-arrays)|Hard|
 |5|[longest-palindromic-substring](https://leetcode-cn.com/problems/longest-palindromic-substring)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0005_longest-palindromic-substring/)|[:book:](https://leetcode-cn.com/articles/longest-palindromic-substring)|Medium|
 |6|[zigzag-conversion](https://leetcode-cn.com/problems/zigzag-conversion)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0006_zigzag-conversion/)|[:book:](https://leetcode-cn.com/articles/zigzag-conversion)|Medium|
@@ -85,9 +85,9 @@
 |59|[spiral-matrix-ii](https://leetcode-cn.com/problems/spiral-matrix-ii)|||Medium|
 |60|[permutation-sequence](https://leetcode-cn.com/problems/permutation-sequence)|||Medium|
 |61|[rotate-list](https://leetcode-cn.com/problems/rotate-list)|||Medium|
-|62|[unique-paths](https://leetcode-cn.com/problems/unique-paths)|||Medium|
-|63|[unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii)|||Medium|
-|64|[minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum)|||Medium|
+|62|[unique-paths](https://leetcode-cn.com/problems/unique-paths)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0062_unique-paths/)||Medium|
+|63|[unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0063_unique-paths-ii/)||Medium|
+|64|[minimum-path-sum](https://leetcode-cn.com/problems/minimum-path-sum)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0064_minimum-path-sum/)||Medium|
 |65|[valid-number](https://leetcode-cn.com/problems/valid-number)|||Hard|
 |66|[plus-one](https://leetcode-cn.com/problems/plus-one)|||Easy|
 |67|[add-binary](https://leetcode-cn.com/problems/add-binary)|||Easy|
@@ -114,12 +114,12 @@
 |88|[merge-sorted-array](https://leetcode-cn.com/problems/merge-sorted-array)|||Easy|
 |89|[gray-code](https://leetcode-cn.com/problems/gray-code)|||Medium|
 |90|[subsets-ii](https://leetcode-cn.com/problems/subsets-ii)|||Medium|
-|91|[decode-ways](https://leetcode-cn.com/problems/decode-ways)|||Medium|
+|91|[decode-ways](https://leetcode-cn.com/problems/decode-ways)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0091_decode-ways/)||Medium|
 |92|[reverse-linked-list-ii](https://leetcode-cn.com/problems/reverse-linked-list-ii)|||Medium|
 |93|[restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses)|||Medium|
 |94|[binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal)|||Medium|
 |95|[unique-binary-search-trees-ii](https://leetcode-cn.com/problems/unique-binary-search-trees-ii)|||Medium|
-|96|[unique-binary-search-trees](https://leetcode-cn.com/problems/unique-binary-search-trees)|||Medium|
+|96|[unique-binary-search-trees](https://leetcode-cn.com/problems/unique-binary-search-trees)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0096_unique-binary-search-trees/)||Medium|
 |97|[interleaving-string](https://leetcode-cn.com/problems/interleaving-string)|||Hard|
 |98|[validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree)|||Medium|
 |99|[recover-binary-search-tree](https://leetcode-cn.com/problems/recover-binary-search-tree)|||Hard|
@@ -657,7 +657,7 @@
 |797|[all-paths-from-source-to-target](https://leetcode-cn.com/problems/all-paths-from-source-to-target)|||Medium|
 |798|[smallest-rotation-with-highest-score](https://leetcode-cn.com/problems/smallest-rotation-with-highest-score)|||Hard|
 |799|[champagne-tower](https://leetcode-cn.com/problems/champagne-tower)|||Medium|
-|801|[minimum-swaps-to-make-sequences-increasing](https://leetcode-cn.com/problems/minimum-swaps-to-make-sequences-increasing)|||Medium|
+|801|[minimum-swaps-to-make-sequences-increasing](https://leetcode-cn.com/problems/minimum-swaps-to-make-sequences-increasing)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0801_minimum-swaps-to-make-sequences-increasing/)||Medium|
 |802|[find-eventual-safe-states](https://leetcode-cn.com/problems/find-eventual-safe-states)|||Medium|
 |803|[bricks-falling-when-hit](https://leetcode-cn.com/problems/bricks-falling-when-hit)|||Hard|
 |804|[unique-morse-code-words](https://leetcode-cn.com/problems/unique-morse-code-words)|||Easy|
@@ -786,11 +786,11 @@
 |928|[minimize-malware-spread-ii](https://leetcode-cn.com/problems/minimize-malware-spread-ii)|||Hard|
 |929|[unique-email-addresses](https://leetcode-cn.com/problems/unique-email-addresses)|||Easy|
 |930|[binary-subarrays-with-sum](https://leetcode-cn.com/problems/binary-subarrays-with-sum)|||Medium|
-|931|[minimum-falling-path-sum](https://leetcode-cn.com/problems/minimum-falling-path-sum)|||Medium|
+|931|[minimum-falling-path-sum](https://leetcode-cn.com/problems/minimum-falling-path-sum)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0931_minimum-falling-path-sum/)||Medium|
 |932|[beautiful-array](https://leetcode-cn.com/problems/beautiful-array)|||Medium|
 |933|[number-of-recent-calls](https://leetcode-cn.com/problems/number-of-recent-calls)|||Easy|
 |934|[shortest-bridge](https://leetcode-cn.com/problems/shortest-bridge)|||Medium|
-|935|[knight-dialer](https://leetcode-cn.com/problems/knight-dialer)|||Medium|
+|935|[knight-dialer](https://leetcode-cn.com/problems/knight-dialer)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0935_knight-dialer/)||Medium|
 |936|[stamping-the-sequence](https://leetcode-cn.com/problems/stamping-the-sequence)|||Hard|
 |937|[reorder-log-files](https://leetcode-cn.com/problems/reorder-log-files)|||Easy|
 |938|[range-sum-of-bst](https://leetcode-cn.com/problems/range-sum-of-bst)|||Medium|
@@ -822,7 +822,7 @@
 |964|[least-operators-to-express-number](https://leetcode-cn.com/problems/least-operators-to-express-number)||[:book:](https://leetcode-cn.com/articles/least-operators-to-express-number)|Hard|
 |965|[univalued-binary-tree](https://leetcode-cn.com/problems/univalued-binary-tree)||[:book:](https://leetcode-cn.com/articles/univalued-binary-tree)|Easy|
 |966|[vowel-spellchecker](https://leetcode-cn.com/problems/vowel-spellchecker)||[:book:](https://leetcode-cn.com/articles/vowel-spellchecker)|Medium|
-|967|[numbers-with-same-consecutive-differences](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences)||[:book:](https://leetcode-cn.com/articles/numbers-with-same-consecutive-differences)|Medium|
+|967|[numbers-with-same-consecutive-differences](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0967_numbers-with-same-consecutive-differences/)|[:book:](https://leetcode-cn.com/articles/numbers-with-same-consecutive-differences)|Medium|
 |968|[binary-tree-cameras](https://leetcode-cn.com/problems/binary-tree-cameras)||[:book:](https://leetcode-cn.com/articles/binary-tree-cameras)|Hard|
 |969|[pancake-sorting](https://leetcode-cn.com/problems/pancake-sorting)||[:book:](https://leetcode-cn.com/articles/pancake-sorting)|Medium|
 |970|[powerful-integers](https://leetcode-cn.com/problems/powerful-integers)||[:book:](https://leetcode-cn.com/articles/powerful-integers)|Easy|
