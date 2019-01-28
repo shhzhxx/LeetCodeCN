@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-01-27 19:30:55
+**Update Time:** 2019-01-28 18:32:23
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |esay|medium|hard|
-|38|35|2|
+|38|42|2|
 
-**Total Progress:** 75 / 809
+**Total Progress:** 82 / 809
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -118,7 +118,7 @@
 |92|[reverse-linked-list-ii](https://leetcode-cn.com/problems/reverse-linked-list-ii)|||Medium|
 |93|[restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses)|||Medium|
 |94|[binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal)|||Medium|
-|95|[unique-binary-search-trees-ii](https://leetcode-cn.com/problems/unique-binary-search-trees-ii)|||Medium|
+|95|[unique-binary-search-trees-ii](https://leetcode-cn.com/problems/unique-binary-search-trees-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0095_unique-binary-search-trees-ii/)||Medium|
 |96|[unique-binary-search-trees](https://leetcode-cn.com/problems/unique-binary-search-trees)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0096_unique-binary-search-trees/)||Medium|
 |97|[interleaving-string](https://leetcode-cn.com/problems/interleaving-string)|||Hard|
 |98|[validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree)|||Medium|
@@ -143,7 +143,7 @@
 |117|[populating-next-right-pointers-in-each-node-ii](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii)|||Medium|
 |118|[pascals-triangle](https://leetcode-cn.com/problems/pascals-triangle)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0118_pascals-triangle/)|[:book:](https://leetcode-cn.com/articles/pascals-triangle)|Easy|
 |119|[pascals-triangle-ii](https://leetcode-cn.com/problems/pascals-triangle-ii)|||Easy|
-|120|[triangle](https://leetcode-cn.com/problems/triangle)|||Medium|
+|120|[triangle](https://leetcode-cn.com/problems/triangle)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0120_triangle/)||Medium|
 |121|[best-time-to-buy-and-sell-stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0121_best-time-to-buy-and-sell-stock/)|[:book:](https://leetcode-cn.com/articles/best-time-to-buy-and-sell-stock)|Easy|
 |122|[best-time-to-buy-and-sell-stock-ii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0122_best-time-to-buy-and-sell-stock-ii/)|[:book:](https://leetcode-cn.com/articles/best-time-to-buy-and-sell-stock-ii)|Easy|
 |123|[best-time-to-buy-and-sell-stock-iii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii)|||Hard|
@@ -162,7 +162,7 @@
 |136|[single-number](https://leetcode-cn.com/problems/single-number)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0136_single-number/)||Easy|
 |137|[single-number-ii](https://leetcode-cn.com/problems/single-number-ii)|||Medium|
 |138|[copy-list-with-random-pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer)|||Medium|
-|139|[word-break](https://leetcode-cn.com/problems/word-break)|||Medium|
+|139|[word-break](https://leetcode-cn.com/problems/word-break)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0139_word-break/)||Medium|
 |140|[word-break-ii](https://leetcode-cn.com/problems/word-break-ii)|||Hard|
 |141|[linked-list-cycle](https://leetcode-cn.com/problems/linked-list-cycle)||[:book:](https://leetcode-cn.com/articles/linked-list-cycle)|Easy|
 |142|[linked-list-cycle-ii](https://leetcode-cn.com/problems/linked-list-cycle-ii)|||Medium|
@@ -175,7 +175,7 @@
 |149|[max-points-on-a-line](https://leetcode-cn.com/problems/max-points-on-a-line)|||Hard|
 |150|[evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation)|||Medium|
 |151|[reverse-words-in-a-string](https://leetcode-cn.com/problems/reverse-words-in-a-string)|||Medium|
-|152|[maximum-product-subarray](https://leetcode-cn.com/problems/maximum-product-subarray)|||Medium|
+|152|[maximum-product-subarray](https://leetcode-cn.com/problems/maximum-product-subarray)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0152_maximum-product-subarray/)||Medium|
 |153|[find-minimum-in-rotated-sorted-array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array)|||Medium|
 |154|[find-minimum-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii)|||Hard|
 |155|[min-stack](https://leetcode-cn.com/problems/min-stack)|||Easy|
@@ -228,7 +228,7 @@
 |210|[course-schedule-ii](https://leetcode-cn.com/problems/course-schedule-ii)|||Medium|
 |211|[add-and-search-word-data-structure-design](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design)|||Medium|
 |212|[word-search-ii](https://leetcode-cn.com/problems/word-search-ii)|||Hard|
-|213|[house-robber-ii](https://leetcode-cn.com/problems/house-robber-ii)|||Medium|
+|213|[house-robber-ii](https://leetcode-cn.com/problems/house-robber-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0213_house-robber-ii/)||Medium|
 |214|[shortest-palindrome](https://leetcode-cn.com/problems/shortest-palindrome)|||Hard|
 |215|[kth-largest-element-in-an-array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array)|||Medium|
 |216|[combination-sum-iii](https://leetcode-cn.com/problems/combination-sum-iii)|||Medium|
@@ -236,7 +236,7 @@
 |218|[the-skyline-problem](https://leetcode-cn.com/problems/the-skyline-problem)|||Hard|
 |219|[contains-duplicate-ii](https://leetcode-cn.com/problems/contains-duplicate-ii)|||Easy|
 |220|[contains-duplicate-iii](https://leetcode-cn.com/problems/contains-duplicate-iii)|||Medium|
-|221|[maximal-square](https://leetcode-cn.com/problems/maximal-square)|||Medium|
+|221|[maximal-square](https://leetcode-cn.com/problems/maximal-square)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0221_maximal-square/)||Medium|
 |222|[count-complete-tree-nodes](https://leetcode-cn.com/problems/count-complete-tree-nodes)|||Medium|
 |223|[rectangle-area](https://leetcode-cn.com/problems/rectangle-area)|||Medium|
 |224|[basic-calculator](https://leetcode-cn.com/problems/basic-calculator)|||Hard|
@@ -263,7 +263,7 @@
 |260|[single-number-iii](https://leetcode-cn.com/problems/single-number-iii)|||Medium|
 |262|[trips-and-users](https://leetcode-cn.com/problems/trips-and-users)|||Hard|
 |263|[ugly-number](https://leetcode-cn.com/problems/ugly-number)|||Easy|
-|264|[ugly-number-ii](https://leetcode-cn.com/problems/ugly-number-ii)|||Medium|
+|264|[ugly-number-ii](https://leetcode-cn.com/problems/ugly-number-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0264_ugly-number-ii/)||Medium|
 |268|[missing-number](https://leetcode-cn.com/problems/missing-number)|||Easy|
 |273|[integer-to-english-words](https://leetcode-cn.com/problems/integer-to-english-words)|||Hard|
 |274|[h-index](https://leetcode-cn.com/problems/h-index)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0274_h-index/)||Medium|
