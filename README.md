@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-01-28 18:32:23
+**Update Time:** 2019-01-29 17:59:14
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |esay|medium|hard|
-|38|42|2|
+|38|47|2|
 
-**Total Progress:** 82 / 809
+**Total Progress:** 87 / 809
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -34,12 +34,12 @@
 |8|[string-to-integer-atoi](https://leetcode-cn.com/problems/string-to-integer-atoi)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0008_string-to-integer-atoi/)||Medium|
 |9|[palindrome-number](https://leetcode-cn.com/problems/palindrome-number)||[:book:](https://leetcode-cn.com/articles/palindrome-number)|Easy|
 |10|[regular-expression-matching](https://leetcode-cn.com/problems/regular-expression-matching)|||Hard|
-|11|[container-with-most-water](https://leetcode-cn.com/problems/container-with-most-water)||[:book:](https://leetcode-cn.com/articles/container-with-most-water)|Medium|
+|11|[container-with-most-water](https://leetcode-cn.com/problems/container-with-most-water)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0011_container-with-most-water/)|[:book:](https://leetcode-cn.com/articles/container-with-most-water)|Medium|
 |12|[integer-to-roman](https://leetcode-cn.com/problems/integer-to-roman)|||Medium|
 |13|[roman-to-integer](https://leetcode-cn.com/problems/roman-to-integer)|||Easy|
 |14|[longest-common-prefix](https://leetcode-cn.com/problems/longest-common-prefix)||[:book:](https://leetcode-cn.com/articles/longest-common-prefix)|Easy|
-|15|[3sum](https://leetcode-cn.com/problems/3sum)|||Medium|
-|16|[3sum-closest](https://leetcode-cn.com/problems/3sum-closest)|||Medium|
+|15|[3sum](https://leetcode-cn.com/problems/3sum)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0015_3sum/)||Medium|
+|16|[3sum-closest](https://leetcode-cn.com/problems/3sum-closest)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0016_3sum-closest/)||Medium|
 |17|[letter-combinations-of-a-phone-number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number)|||Medium|
 |18|[4sum](https://leetcode-cn.com/problems/4sum)|||Medium|
 |19|[remove-nth-node-from-end-of-list](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list)||[:book:](https://leetcode-cn.com/articles/remove-nth-node-from-end-of-list)|Medium|
@@ -56,7 +56,7 @@
 |30|[substring-with-concatenation-of-all-words](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words)|||Hard|
 |31|[next-permutation](https://leetcode-cn.com/problems/next-permutation)||[:book:](https://leetcode-cn.com/articles/next-permutation)|Medium|
 |32|[longest-valid-parentheses](https://leetcode-cn.com/problems/longest-valid-parentheses)|||Hard|
-|33|[search-in-rotated-sorted-array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array)|||Medium|
+|33|[search-in-rotated-sorted-array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0033_search-in-rotated-sorted-array/)||Medium|
 |34|[find-first-and-last-position-of-element-in-sorted-array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array)|||Medium|
 |35|[search-insert-position](https://leetcode-cn.com/problems/search-insert-position)|||Easy|
 |36|[valid-sudoku](https://leetcode-cn.com/problems/valid-sudoku)||[:book:](https://leetcode-cn.com/articles/valid-sudoku)|Medium|
@@ -66,7 +66,7 @@
 |40|[combination-sum-ii](https://leetcode-cn.com/problems/combination-sum-ii)|||Medium|
 |41|[first-missing-positive](https://leetcode-cn.com/problems/first-missing-positive)|||Hard|
 |42|[trapping-rain-water](https://leetcode-cn.com/problems/trapping-rain-water)|||Hard|
-|43|[multiply-strings](https://leetcode-cn.com/problems/multiply-strings)|||Medium|
+|43|[multiply-strings](https://leetcode-cn.com/problems/multiply-strings)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0043_multiply-strings/)||Medium|
 |44|[wildcard-matching](https://leetcode-cn.com/problems/wildcard-matching)|||Hard|
 |45|[jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii)|||Hard|
 |46|[permutations](https://leetcode-cn.com/problems/permutations)|||Medium|
