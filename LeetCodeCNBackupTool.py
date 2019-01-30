@@ -240,7 +240,7 @@ class Archive:
 
 ||SOLVED||
 |:-:|:-:|:-:|
-|esay|medium|hard|
+|<font color=#5CB85C>Esay</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
 |{ac_easy}|{ac_medium}|{ac_hard}|
 
 **Total Progress:** {num_solved} / {num_total}
@@ -315,11 +315,11 @@ class Archive:
 
     def __get_difficulty(self, level):
         if level == 1:
-            return 'Easy'
+            return '<font color=#5CB85C>Esay</font>'
         elif level == 2:
-            return 'Medium'
+            return '<font color=#F0AD4E>Medium</font>'
         else:
-            return 'Hard'
+            return '<font color=#D9534F>Hard</font>'
 
     def __get_submission_history(self):
         '''
