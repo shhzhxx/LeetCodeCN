@@ -370,6 +370,10 @@ class Archive:
 
             sub_url = HOST_URL + sub['url']
             sub_code, sub_name = self.__get_submission_code_and_name(sub_url)
+            
+            # 由于部分竞赛题不在题库当中，我还没有参加过竞赛，不了解其中的数据结构，所以暂时不保存
+            if sub_name not in self.__name_to_id_dict:
+                continue
             problem = self.__problems[self.__name_to_id_dict[sub_name]]
             str_problem_id = str(problem['frontend_question_id']).zfill(4)
 
