@@ -233,14 +233,14 @@ class Archive:
 - [ ] 代码优化
 
 **注意:**
-1. 在 config.cfg 文件中填写登录信息和GitHub库地址，lpsi字段自动填写
-2. 如需重新下载所有Ac代码，请清空lpsi字段
+1. 在 config.cfg 文件中填写登录信息和GitHub库地址
+2. lpsi字段会自动填写，如需重新下载所有Ac代码，请清空lpsi字段
 3. 由于保存了敏感信息，请勿上传 config.cfg 和 cookies.json 这两个文件
 4. 代码非常紊乱，目前处于能用就行的状态，优化工作无限期延后
 
 ||SOLVED||
 |:-:|:-:|:-:|
-|<font color=#5CB85C>Esay</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
+|<font color=#5CB85C>Easy</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
 |{ac_easy}|{ac_medium}|{ac_hard}|
 
 **Total Progress:** {num_solved} / {num_total}
@@ -315,7 +315,7 @@ class Archive:
 
     def __get_difficulty(self, level):
         if level == 1:
-            return '<font color=#5CB85C>Esay</font>'
+            return '<font color=#5CB85C>Easy</font>'
         elif level == 2:
             return '<font color=#F0AD4E>Medium</font>'
         else:
