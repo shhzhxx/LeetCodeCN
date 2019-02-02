@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-02-01 18:58:43
+**Update Time:** 2019-02-02 18:19:34
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |<font color=#5CB85C>Easy</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
-|55|64|9|
+|57|65|11|
 
-**Total Progress:** 128 / 816
+**Total Progress:** 133 / 816
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -239,15 +239,15 @@
 |221|[maximal-square](https://leetcode-cn.com/problems/maximal-square)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0221_maximal-square/)||<font color=#F0AD4E>Medium</font>|
 |222|[count-complete-tree-nodes](https://leetcode-cn.com/problems/count-complete-tree-nodes)|||<font color=#F0AD4E>Medium</font>|
 |223|[rectangle-area](https://leetcode-cn.com/problems/rectangle-area)|||<font color=#F0AD4E>Medium</font>|
-|224|[basic-calculator](https://leetcode-cn.com/problems/basic-calculator)|||<font color=#D9534F>Hard</font>|
-|225|[implement-stack-using-queues](https://leetcode-cn.com/problems/implement-stack-using-queues)|||<font color=#5CB85C>Easy</font>|
+|224|[basic-calculator](https://leetcode-cn.com/problems/basic-calculator)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0224_basic-calculator/)||<font color=#D9534F>Hard</font>|
+|225|[implement-stack-using-queues](https://leetcode-cn.com/problems/implement-stack-using-queues)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0225_implement-stack-using-queues/)||<font color=#5CB85C>Easy</font>|
 |226|[invert-binary-tree](https://leetcode-cn.com/problems/invert-binary-tree)|||<font color=#5CB85C>Easy</font>|
 |227|[basic-calculator-ii](https://leetcode-cn.com/problems/basic-calculator-ii)|||<font color=#F0AD4E>Medium</font>|
 |228|[summary-ranges](https://leetcode-cn.com/problems/summary-ranges)|||<font color=#F0AD4E>Medium</font>|
 |229|[majority-element-ii](https://leetcode-cn.com/problems/majority-element-ii)|||<font color=#F0AD4E>Medium</font>|
 |230|[kth-smallest-element-in-a-bst](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0230_kth-smallest-element-in-a-bst/)||<font color=#F0AD4E>Medium</font>|
 |231|[power-of-two](https://leetcode-cn.com/problems/power-of-two)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0231_power-of-two/)||<font color=#5CB85C>Easy</font>|
-|232|[implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks)|||<font color=#5CB85C>Easy</font>|
+|232|[implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0232_implement-queue-using-stacks/)||<font color=#5CB85C>Easy</font>|
 |233|[number-of-digit-one](https://leetcode-cn.com/problems/number-of-digit-one)|||<font color=#D9534F>Hard</font>|
 |234|[palindrome-linked-list](https://leetcode-cn.com/problems/palindrome-linked-list)|||<font color=#5CB85C>Easy</font>|
 |235|[lowest-common-ancestor-of-a-binary-search-tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0235_lowest-common-ancestor-of-a-binary-search-tree/)||<font color=#5CB85C>Easy</font>|
@@ -291,7 +291,7 @@
 |312|[burst-balloons](https://leetcode-cn.com/problems/burst-balloons)|||<font color=#D9534F>Hard</font>|
 |313|[super-ugly-number](https://leetcode-cn.com/problems/super-ugly-number)|||<font color=#F0AD4E>Medium</font>|
 |315|[count-of-smaller-numbers-after-self](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self)|||<font color=#D9534F>Hard</font>|
-|316|[remove-duplicate-letters](https://leetcode-cn.com/problems/remove-duplicate-letters)|||<font color=#D9534F>Hard</font>|
+|316|[remove-duplicate-letters](https://leetcode-cn.com/problems/remove-duplicate-letters)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0316_remove-duplicate-letters/)||<font color=#D9534F>Hard</font>|
 |318|[maximum-product-of-word-lengths](https://leetcode-cn.com/problems/maximum-product-of-word-lengths)|||<font color=#F0AD4E>Medium</font>|
 |319|[bulb-switcher](https://leetcode-cn.com/problems/bulb-switcher)|||<font color=#F0AD4E>Medium</font>|
 |321|[create-maximum-number](https://leetcode-cn.com/problems/create-maximum-number)|||<font color=#D9534F>Hard</font>|
@@ -302,7 +302,7 @@
 |328|[odd-even-linked-list](https://leetcode-cn.com/problems/odd-even-linked-list)|||<font color=#F0AD4E>Medium</font>|
 |329|[longest-increasing-path-in-a-matrix](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix)|||<font color=#D9534F>Hard</font>|
 |330|[patching-array](https://leetcode-cn.com/problems/patching-array)|||<font color=#D9534F>Hard</font>|
-|331|[verify-preorder-serialization-of-a-binary-tree](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree)|||<font color=#F0AD4E>Medium</font>|
+|331|[verify-preorder-serialization-of-a-binary-tree](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0331_verify-preorder-serialization-of-a-binary-tree/)||<font color=#F0AD4E>Medium</font>|
 |332|[reconstruct-itinerary](https://leetcode-cn.com/problems/reconstruct-itinerary)|||<font color=#F0AD4E>Medium</font>|
 |334|[increasing-triplet-subsequence](https://leetcode-cn.com/problems/increasing-triplet-subsequence)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0334_increasing-triplet-subsequence/)||<font color=#F0AD4E>Medium</font>|
 |335|[self-crossing](https://leetcode-cn.com/problems/self-crossing)|||<font color=#D9534F>Hard</font>|
