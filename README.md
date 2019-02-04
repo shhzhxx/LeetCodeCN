@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-02-02 18:19:34
+**Update Time:** 2019-02-04 13:33:56
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |<font color=#5CB85C>Easy</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
-|57|65|11|
+|57|66|11|
 
-**Total Progress:** 133 / 816
+**Total Progress:** 134 / 816
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -309,7 +309,7 @@
 |336|[palindrome-pairs](https://leetcode-cn.com/problems/palindrome-pairs)|||<font color=#D9534F>Hard</font>|
 |337|[house-robber-iii](https://leetcode-cn.com/problems/house-robber-iii)|||<font color=#F0AD4E>Medium</font>|
 |338|[counting-bits](https://leetcode-cn.com/problems/counting-bits)|||<font color=#F0AD4E>Medium</font>|
-|341|[flatten-nested-list-iterator](https://leetcode-cn.com/problems/flatten-nested-list-iterator)|||<font color=#F0AD4E>Medium</font>|
+|341|[flatten-nested-list-iterator](https://leetcode-cn.com/problems/flatten-nested-list-iterator)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0341_flatten-nested-list-iterator/)||<font color=#F0AD4E>Medium</font>|
 |342|[power-of-four](https://leetcode-cn.com/problems/power-of-four)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0342_power-of-four/)||<font color=#5CB85C>Easy</font>|
 |343|[integer-break](https://leetcode-cn.com/problems/integer-break)|||<font color=#F0AD4E>Medium</font>|
 |344|[reverse-string](https://leetcode-cn.com/problems/reverse-string)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0344_reverse-string/)||<font color=#5CB85C>Easy</font>|
