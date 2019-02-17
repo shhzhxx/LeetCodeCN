@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-02-16 09:29:47
+**Update Time:** 2019-02-17 21:09:01
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |<font color=#5CB85C>Easy</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
-|58|67|11|
+|59|67|11|
 
-**Total Progress:** 136 / 824
+**Total Progress:** 137 / 824
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -50,7 +50,7 @@
 |24|[swap-nodes-in-pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0024_swap-nodes-in-pairs/)||<font color=#F0AD4E>Medium</font>|
 |25|[reverse-nodes-in-k-group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group)|||<font color=#D9534F>Hard</font>|
 |26|[remove-duplicates-from-sorted-array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0026_remove-duplicates-from-sorted-array/)|[:book:](https://leetcode-cn.com/articles/remove-duplicates-from-sorted-array)|<font color=#5CB85C>Easy</font>|
-|27|[remove-element](https://leetcode-cn.com/problems/remove-element)||[:book:](https://leetcode-cn.com/articles/remove-element)|<font color=#5CB85C>Easy</font>|
+|27|[remove-element](https://leetcode-cn.com/problems/remove-element)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0027_remove-element/)|[:book:](https://leetcode-cn.com/articles/remove-element)|<font color=#5CB85C>Easy</font>|
 |28|[implement-strstr](https://leetcode-cn.com/problems/implement-strstr)|||<font color=#5CB85C>Easy</font>|
 |29|[divide-two-integers](https://leetcode-cn.com/problems/divide-two-integers)|||<font color=#F0AD4E>Medium</font>|
 |30|[substring-with-concatenation-of-all-words](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words)|||<font color=#D9534F>Hard</font>|
