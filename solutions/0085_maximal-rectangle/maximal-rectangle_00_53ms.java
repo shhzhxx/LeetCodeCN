@@ -8,9 +8,9 @@ class Solution {
         int col = matrix[0].length;
         int[] heights = new int[col];
 
-        // 莽卤禄忙炉聰84茅垄聵茂录聦猫庐隆莽庐聴盲禄楼忙炉聫盲赂聙氓卤聜盲赂潞氓潞聲忙聴露莽職聞忙聹聙氓陇搂茅聺垄莽搂炉
+        // 类比84题，计算以每一层为底时的最大面积
         for (int i = 0; i < row; ++i) {
-            // 猫庐隆莽庐聴氓戮聴氓聢掳氓陆聯氓聣聧氓卤聜莽職聞忙聼卤莽聤露氓聸戮
+            // 计算得到当前层的柱状图
             for (int j = 0; j < col; ++j) {
                 if (matrix[i][j] == '0')
                     heights[j] = 0;
@@ -24,7 +24,7 @@ class Solution {
                 if (stack.isEmpty() || heights[j] > heights[stack.peek()]) {
                     stack.push(j);
                 } else {
-                    // 盲禄楼盲赂聤盲赂聙盲赂陋忙聹聙氓陇搂茅芦聵氓潞娄盲赂潞茅芦聵茂录聦氓庐陆氓聧鲁盲赂潞氓聠聧盲赂聤盲赂聙忙聺隆忙聹聙氓陇搂茅芦聵氓潞娄盲赂聨氓陆聯氓聣聧莽麓垄氓录聲莽職聞莽麓垄氓录聲猫路聺莽娄禄
+                    // 以上一个最大高度为高，宽即为再上一条最大高度与当前索引的索引距离
                     int lastMaxIndex = stack.pop();
                     int area = heights[lastMaxIndex] * (stack.isEmpty() ? j : j - stack.peek() - 1);
                     res = res > area ? res : area;

@@ -20,7 +20,7 @@ class Solution {
                 } else if (tmp < target) {
                     ++left;
                 } else {
-                    // é²æ­¢éå¤
+                    // ��ֹ�ظ�
                     List<Integer> l = new ArrayList<>();
                     while (left < right - 1 && nums[left] == nums[left + 1]) ++left;
                     while (right > left + 1 && nums[right] == nums[right - 1]) --right;

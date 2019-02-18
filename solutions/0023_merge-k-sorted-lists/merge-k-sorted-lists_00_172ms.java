@@ -7,7 +7,7 @@
  * }
  */
 class Solution {
-    // 氓陇聧莽聰篓氓聬聢氓鹿露盲赂陇盲赂陋忙聹聣氓潞聫茅聯戮猫隆篓莽職聞忙聳鹿忙鲁聲茂录聦盲赂陇盲赂陋盲赂陇盲赂陋氓聬聢氓鹿露
+    // 复用合并两个有序链表的方法，两个两个合并
     public ListNode mergeKLists(ListNode[] lists) {
         if(lists.length == 0)
             return null;
@@ -40,7 +40,7 @@ class Solution {
         return head.next;
     }
     
-//     // 莽聸麓忙聨楼氓炉鹿忙聲麓盲赂陋忙聲掳莽禄聞氓聛職氓陆聮氓鹿露
+//     // 直接对整个数组做归并
 //     public ListNode mergeKLists(ListNode[] lists) {
 //         ListNode curNode = new ListNode(0), head = curNode;
 //         boolean shouldStay = true;

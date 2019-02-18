@@ -1,8 +1,8 @@
 class Solution {
     public boolean makesquare(int[] nums) {
-        // 茅聸聠氓聬聢莽職聞k氓聢聮氓聢聠莽職聞莽聣鹿忙庐聤忙聝聟氓聠碌茂录聦k = 4
-        // 茅聙聮氓陆聮氓炉禄忙聣戮忙颅拢莽隆庐莽職聞氓聢聮氓聢聠茂录聦忙聣戮氓聢掳氓聸聸忙卢隆氓聧鲁猫驴聰氓聸聻true
-        // 盲赂潞盲潞聠氓聡聫氓掳聭氓聸聻忙潞炉忙卢隆忙聲掳茂录聦氓聫炉盲禄楼氓聟聢氓炉鹿忙聲掳莽禄聞忙聨聮氓潞聫茂录聦氓炉禄忙聣戮忙聴露盲禄聨茅芦聵氓聙录氓聡潞氓聫聭
+        // 集合的k划分的特殊情况，k = 4
+        // 递归寻找正确的划分，找到四次即返回true
+        // 为了减少回溯次数，可以先对数组排序，寻找时从高值出发
         if (nums.length < 4) return false;
         int sum = 0;
         for (int num : nums)
@@ -21,9 +21,9 @@ class Solution {
         if (num_id < 0 || curSum > target) return false;
 
         for (int i = num_id; i >= 0; --i) {
-            // 氓聙录盲赂潞茅聸露猫隆篓莽陇潞氓路虏猫垄芦盲陆驴莽聰篓
+            // 值为零表示已被使用
             if (nums[i] == 0) continue;
-            // 忙職聜氓颅聵茂录聦盲赂聧莽卢娄氓聬聢猫娄聛忙卤聜忙聴露氓聠聧忙聛垄氓陇聧
+            // 暂存，不符合要求时再恢复
             int tmp = nums[i];
             nums[i] = 0;
             if (curSum + tmp == target || find(i - 1, target, curSum + tmp, nums)) return true;

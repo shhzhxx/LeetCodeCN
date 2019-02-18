@@ -4,7 +4,7 @@ class Solution {
         int maxArea = 0;
         Stack<Integer> stack = new Stack<>();
 
-        // 氓聧聲氓垄聻忙聽聢茂录聦茅聛聡氓聢掳氓陇搂莽職聞氓聨聥氓聟楼盲赂聥忙聽聡茂录聦茅聛聡氓聢掳氓掳聫莽職聞猫庐隆莽庐聴盲禄楼氓聟露盲赂潞茅芦聵莽職聞茅聺垄莽搂炉莽聸麓猫聡鲁氓聫炉盲禄楼氓掳聠氓聟露氓聨聥氓聟楼忙聽聢
+        // 单增栈，遇到大的压入下标，遇到小的计算以其为高的面积直至可以将其压入栈
         for (int i = 0; i < len; i++) {
             if (stack.isEmpty() || height[i] > height[stack.peek()]) {
                 stack.push(i);
@@ -16,7 +16,7 @@ class Solution {
             }
         }
         
-        // 猫驴聶茅聡聦盲赂聧氓陇陋忙聵聨莽聶陆
+        // 这里不太明白
         while (!stack.isEmpty()) {
             int t = stack.pop();
             int area = height[t] * (stack.isEmpty() ? len : len - stack.peek() - 1);

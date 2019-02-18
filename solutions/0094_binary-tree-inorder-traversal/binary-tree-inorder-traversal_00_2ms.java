@@ -8,7 +8,7 @@
  * }
  */
 class Solution {
-    // 猫驴颅盲禄拢莽庐聴忙鲁聲茂录聦盲驴庐忙聰鹿莽聣聢茂录聦盲赂聧盲录職莽聽麓氓聺聫氓聨聼忙聹聣忙聽聭莽職聞莽禄聯忙聻聞
+    // 迭代算法，修改版，不会破坏原有树的结构
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> lst = new LinkedList<>();
         Stack<TreeNode> stack = new Stack<>();

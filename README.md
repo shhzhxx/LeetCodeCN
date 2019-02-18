@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-02-18 14:59:36
+**Update Time:** 2019-02-18 18:44:38
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |<font color=#5CB85C>Easy</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
-|64|67|11|
+|65|67|11|
 
-**Total Progress:** 142 / 824
+**Total Progress:** 143 / 824
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -106,7 +106,7 @@
 |80|[remove-duplicates-from-sorted-array-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii)|||<font color=#F0AD4E>Medium</font>|
 |81|[search-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii)|||<font color=#F0AD4E>Medium</font>|
 |82|[remove-duplicates-from-sorted-list-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii)|||<font color=#F0AD4E>Medium</font>|
-|83|[remove-duplicates-from-sorted-list](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list)||[:book:](https://leetcode-cn.com/articles/remove-duplicates-from-sorted-list)|<font color=#5CB85C>Easy</font>|
+|83|[remove-duplicates-from-sorted-list](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0083_remove-duplicates-from-sorted-list/)|[:book:](https://leetcode-cn.com/articles/remove-duplicates-from-sorted-list)|<font color=#5CB85C>Easy</font>|
 |84|[largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0084_largest-rectangle-in-histogram/)||<font color=#D9534F>Hard</font>|
 |85|[maximal-rectangle](https://leetcode-cn.com/problems/maximal-rectangle)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0085_maximal-rectangle/)||<font color=#D9534F>Hard</font>|
 |86|[partition-list](https://leetcode-cn.com/problems/partition-list)|||<font color=#F0AD4E>Medium</font>|

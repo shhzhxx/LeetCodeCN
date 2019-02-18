@@ -3,7 +3,7 @@ class Solution {
         return n % 4 != 0;
     }
     
-//     // å¨æè§å
+//     // ��̬�滮
 //     private Map<Integer, Boolean> record;
 
 //     public boolean canWinNim(int n) {
@@ -20,7 +20,7 @@ class Solution {
 //         }
 
 //         for(int i = 1;i <= 3;++i){
-//             // å¦æå¯¹æ¹è¾äºï¼æå°±èµ¢äº
+//             // ����Է����ˣ��Ҿ�Ӯ��
 //             if(!canWinNim(n - i)){
 //                 record.put(n, true);
 //                 return true;

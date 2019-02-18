@@ -1,6 +1,6 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        // 氓聢職氓录聙氓搂聥忙聝鲁莽職聞盲鹿聼忙聵炉忙禄聭氓聤篓莽陋聴氓聫拢忙鲁聲茂录聦盲陆聠忙聵炉忙虏隆忙聝鲁氓聢掳猫娄聛莽聰篓HashSet氓聤聽氓驴芦茅聙聼氓潞娄茂录聦忙聻聹莽聞露氓炉鹿盲赂聙盲潞聸氓赂赂莽聰篓莽職聞忙聲掳忙聧庐莽禄聯忙聻聞猫驴聵忙聵炉盲赂聧氓陇陋莽聠聼忙聜聣
+        // 刚开始想的也是滑动窗口法，但是没想到要用HashSet加快速度，果然对一些常用的数据结构还是不太熟悉
         if (s.length() < 1)
             return 0;
         else if (s.length() == 1)

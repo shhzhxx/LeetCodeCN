@@ -10,7 +10,7 @@
 class Solution {
     private int index = 0;
     
-    // 盲赂颅氓潞聫茅聛聧氓聨聠茂录聦莽聰篓index猫庐掳氓陆聲氓路虏莽禄聫茅聛聧氓聨聠氓聢掳莽卢卢氓聡聽盲陆聧盲潞聠
+    // 中序遍历，用index记录已经遍历到第几位了
     public int kthSmallest(TreeNode root, int k) {
         if(root == null)
             return 0;

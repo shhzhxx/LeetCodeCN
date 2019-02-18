@@ -1,6 +1,6 @@
 class Solution {
     public String removeDuplicateLetters(String s) {
-        // 忙聹聙莽禄聢莽禄聯忙聻聹忙聹聙氓陇職氓聬芦忙聹聣26盲赂陋氓颅聴忙炉聧茂录聦氓聸聽忙颅陇忙聢聭盲禄卢氓聫炉盲禄楼盲陆驴莽聰篓盲赂聙盲赂陋char忙聲掳莽禄聞盲驴聺氓颅聵莽禄聯忙聻聹茂录聦氓聬聦忙聴露莽聰篓盲赂聙盲赂陋boolean忙聲掳莽禄聞猫庐掳氓陆聲氓颅聴莽卢娄忙聵炉氓聬娄氓路虏氓聤聽氓聟楼莽禄聯忙聻聹
+        // 最终结果最多含有26个字母，因此我们可以使用一个char数组保存结果，同时用一个boolean数组记录字符是否已加入结果
         StringBuilder sb = new StringBuilder();
         boolean[] isExist = new boolean[26];
         char[] res = new char[26];
@@ -9,15 +9,15 @@ class Solution {
         for(int i = 0;i < s.length();++i){
             char curChar = s.charAt(i);
 
-            // 氓娄聜忙聻聹莽禄聯忙聻聹氓聦聟氓聬芦猫驴聶盲赂陋氓颅聴莽卢娄茂录聦氓聢聶猫路鲁猫驴聡
+            // 如果结果包含这个字符，则跳过
             if(isExist[curChar - 'a'])
                 continue;
 
-            // 忙拢聙忙聼楼莽聨掳忙聹聣莽禄聯忙聻聹忙聵炉氓聬娄氓聫炉盲禄楼猫垄芦盲录聵氓聦聳
+            // 检查现有结果是否可以被优化
             for(int j = resIndex - 1;j >= 0;--j){
                 char tmpChar = res[j];
 
-                // 氓娄聜忙聻聹忙聹聣盲赂聙盲赂陋氓颅聴莽卢娄氓颅聴氓聟赂氓潞聫忙炉聰氓陆聯氓聣聧氓颅聴莽卢娄氓陇搂茂录聦氓鹿露盲赂聰氓聬聨茅聺垄猫驴聶盲赂陋氓颅聴莽卢娄猫驴聵氓聡潞莽聨掳猫驴聡茂录聦氓聢聶忙職聜忙聴露盲禄聨莽禄聯忙聻聹盲赂颅氓掳聠氓聟露氓聢聽氓聨禄
+                // 如果有一个字符字典序比当前字符大，并且后面这个字符还出现过，则暂时从结果中将其删去
                 if(tmpChar > curChar && s.substring(i).contains(String.valueOf(tmpChar))){
                     resIndex = j;
                     isExist[tmpChar - 'a'] = false;
@@ -25,7 +25,7 @@ class Solution {
                 }
                 break;
             }
-            // 氓掳聠氓陆聯氓聣聧氓颅聴莽卢娄忙聰戮氓聹篓忙職聜忙聴露氓聬聢茅聙聜莽職聞氓聹掳忙聳鹿
+            // 将当前字符放在暂时合适的地方
             res[resIndex++] = curChar;
             isExist[curChar - 'a'] = true;
         }

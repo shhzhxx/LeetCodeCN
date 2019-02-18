@@ -2,7 +2,7 @@ class Solution {
     public int trap(int[] height) {
         int res = 0;
 
-        // i氓路娄猫戮鹿莽職聞忙聹聙氓陇搂氓聙录氓聮聦氓聫鲁猫戮鹿莽職聞忙聹聙氓陇搂氓聙录
+        // i左边的最大值和右边的最大值
         int[] left = new int[height.length];
         int[] right = new int[height.length];
 

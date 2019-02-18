@@ -8,7 +8,7 @@
  * }
  */
 class Solution {
-    // éå½ç®æ³
+    // �ݹ��㷨
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> lst = new LinkedList<>();
         

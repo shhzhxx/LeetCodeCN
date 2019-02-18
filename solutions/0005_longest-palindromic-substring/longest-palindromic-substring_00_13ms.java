@@ -1,7 +1,7 @@
 class Solution {
     public String longestPalindrome(String s) {
         if (s == null || s.length() < 1) return "";
-        // ä¸­å¿æ©å±ç®æ³
+        // ������չ�㷨
         int start = 0, end = 0, len_odd, len_even;
 
         for (int i = 0; i < s.length(); ++i) {
@@ -18,7 +18,7 @@ class Solution {
         return s.substring(start, end + 1);
     }
 
-    // ä¸­å¿æ©å±ç®æ³
+    // ������չ�㷨
     private int getLongestPalindrome(String s, int left, int right) {
         while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)){
             --left;

@@ -16,13 +16,13 @@ class Solution {
     }
     
     /**
-    * 氓娄聜忙聻聹忙聹卢猫聤聜莽聜鹿氓聹篓忙聹聙氓陇搂猫路炉氓戮聞氓聠聟茂录聦氓聢聶氓颅聵氓聜篓盲禄聨盲赂聥氓聢掳忙聹卢猫聤聜莽聜鹿莽職聞忙聹聙氓陇搂猫路炉氓戮聞氓聮聦
-    * 氓聬娄氓聢聶莽陆庐0
+    * 如果本节点在最大路径内，则存储从下到本节点的最大路径和
+    * 否则置0
     */
     private int findMax(TreeNode root){
         if(root == null)
             return 0;
-        // 氓娄聜忙聻聹氓路娄忙聢聳氓聫鲁氓颅聬忙聽聭莽職聞忙聹聙氓陇搂猫路炉氓戮聞氓聮聦氓掳聫盲潞聨0茂录聦氓聢聶莽陆庐0盲禄楼忙露聢茅聶陇氓陆卤氓聯聧
+        // 如果左或右子树的最大路径和小于0，则置0以消除影响
         int left = Math.max(0, findMax(root.left));
         int right = Math.max(0, findMax(root.right));
         this.res = Math.max(this.res, root.val + left + right);

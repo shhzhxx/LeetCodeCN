@@ -1,6 +1,6 @@
 class Solution {
     public int[] deckRevealedIncreasing(int[] deck) {
-        // 忙聦聣莽聟搂茅垄聵莽聸庐猫娄聛忙卤聜忙聻聞茅聙聽忙聲掳莽禄聞茂录聦茅聙聠忙聨篓莽職聞猫驴聡莽篓聥忙炉聰猫戮聝莽庐聙氓聧聲茂录聦莽聰卤盲潞聨忙露聣氓聫聤盲赂陇氓陇麓莽職聞忙聫聮氓聟楼氓聮聦氓聢聽茅聶陇茂录聦忙聣聙盲禄楼茅聙聣莽聰篓氓聫聦莽芦炉茅聵聼氓聢聴Deque
+        // 按照题目要求构造数组，逆推的过程比较简单，由于涉及两头的插入和删除，所以选用双端队列Deque
         Deque<Integer> deque = new ArrayDeque<Integer>(deck.length);
         Arrays.sort(deck);
         int[] res = new int[deck.length];

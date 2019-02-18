@@ -3,7 +3,7 @@ class Solution {
         int max = Integer.MIN_VALUE;
         int start = 0, end = 0;
         
-        // 氓聟聢莽聰篓忙聽鹿忙聧庐忙聲掳莽禄聞茅聡聦莽職聞0氓聢聠氓聣虏忙聲掳莽禄聞
+        // 先用根据数组里的0分割数组
         while(end < nums.length){
             while(end < nums.length && nums[end] != 0) ++end;
             if(end < nums.length && nums[end] == 0)

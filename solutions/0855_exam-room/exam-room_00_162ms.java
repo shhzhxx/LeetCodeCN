@@ -51,7 +51,7 @@ class ExamRoom {
 //         int maxDistIndex = 0, maxDist = -1, seat = 0;
 //         int i = 0;
 
-//         // 氓炉禄忙聣戮氓聬聢茅聙聜莽職聞氓潞搂盲陆聧
+//         // 寻找合适的座位
 //         while (i < numSeat) {
 //             if (seats[i] == 0) {
 //                 ++i;
@@ -76,7 +76,7 @@ class ExamRoom {
 //         }
 //         seats[seat] = 0;
 
-//         // 忙聽鹿忙聧庐氓潞搂盲陆聧茅聡聧忙聨聮忙聲掳莽禄聞
+//         // 根据座位重排数组
 //         if (maxDistIndex != 0) {
 //             setDist(maxDistIndex - seats[maxDistIndex - 1], seat);
 //         }
@@ -85,7 +85,7 @@ class ExamRoom {
 //         return seat;
 //     }
 
-//     // 氓聛聡猫庐戮right氓陇聞盲陆聧莽陆庐猫垄芦氓聧聽莽聰篓茂录聦盲禄聨left氓陇聞氓录聙氓搂聥猫庐隆莽庐聴猫路聺莽娄禄
+//     // 假设right处位置被占用，从left处开始计算距离
 //     private void setDist(int left, int right) {
 //         int N = right - left;
 //         for (int i = left; i < right; ++i)

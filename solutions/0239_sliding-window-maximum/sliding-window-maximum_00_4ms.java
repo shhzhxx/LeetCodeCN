@@ -3,7 +3,7 @@ class Solution {
         if(k == 1 || k == 0){
             return nums;
         }else{
-            int[] rst = new int[nums.length - k + 1];             // 莽禄聯忙聻聹忙聲掳莽禄聞
+            int[] rst = new int[nums.length - k + 1];             // 结果数组
             int max_0 = findMax(nums, 0, k - 1);
             int max_1 = findMax(nums, max_0 + 1, k - 1);
             rst[0] = nums[max_0];

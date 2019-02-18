@@ -9,7 +9,7 @@
  */
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        // 盲赂聙盲赂陋忙聽聢氓颅聵盲赂聤盲赂聙氓卤聜猫聤聜莽聜鹿茂录聦猫驴聶茅聡聦茅聙聙忙聽聢忙聴露氓聙录氓聤聽氓聟楼list茂录聦氓聫露氓颅聬猫聤聜莽聜鹿氓聤聽氓聟楼氓陆聯氓聣聧猫聤聜莽聜鹿忙聽聢
+        // 一个栈存上一层节点，这里退栈时值加入list，叶子节点加入当前节点栈
         Stack<TreeNode> lastStack = new Stack<>(), curStack = new Stack<>(), tmpStack;
         boolean isOdd = true;
         List<List<Integer>> res = new ArrayList<>();

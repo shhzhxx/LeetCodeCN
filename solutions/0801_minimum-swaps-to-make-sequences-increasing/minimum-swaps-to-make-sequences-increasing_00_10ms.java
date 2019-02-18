@@ -1,20 +1,20 @@
 class Solution {
     public int minSwap(int[] A, int[] B) {
-        // 氓聤篓忙聙聛猫搂聞氓聢聮茂录聦猫庐掳氓陆聲盲潞陇忙聧垄氓聮聦盲赂聧盲潞陇忙聧垄氓陆聯氓聣聧氓聟聝莽麓聽莽職聞忙聹聙氓掳聫忙卢隆忙聲掳
-        // 忙炉聫氓陇聞莽聬聠盲赂聙盲赂陋盲赂聥忙聽聡茂录聦盲录職茅聛聡氓聢掳盲赂聣莽搂聧忙聝聟氓聠碌茂录職氓驴聟茅隆禄盲潞陇忙聧垄茫聙聛氓聫炉盲禄楼盲潞陇忙聧垄氓聮聦盲赂聧氓聫炉盲禄楼盲潞陇忙聧垄茫聙聜
+        // 动态规划，记录交换和不交换当前元素的最小次数
+        // 每处理一个下标，会遇到三种情况：必须交换、可以交换和不可以交换。
         int doSwap = 1, noSwap = 0;
 
         for (int i = 1; i < A.length; ++i) {
             if (A[i - 1] >= B[i] || B[i - 1] >= A[i]) {
-                // 盲赂聧氓聫炉盲禄楼盲潞陇忙聧垄
+                // 不可以交换
                 ++doSwap;
             } else if (A[i - 1] >= A[i] || B[i - 1] >= B[i]) {
-                // 氓驴聟茅隆禄盲潞陇忙聧垄
+                // 必须交换
                 int tmp = noSwap + 1;
                 noSwap = doSwap;
                 doSwap = tmp;
             } else {
-                // 茅聝陆氓聫炉盲禄楼
+                // 都可以
                 int tmp = doSwap < noSwap ? doSwap : noSwap;
                 doSwap = tmp + 1;
                 noSwap = tmp;

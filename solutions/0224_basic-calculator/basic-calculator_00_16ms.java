@@ -29,12 +29,12 @@ class Solution {
                     operand = 0;
                     break;
                 case ')':
-                    // res盲赂潞忙聥卢氓聫路氓聠聟莽職聞莽禄聯忙聻聹
+                    // res为括号内的结果
                     res += operand * operator;
                     operand = 0;
-                    // res忙聦聡氓赂娄莽卢娄氓聫路莽職聞莽卢卢盲潞聦盲赂陋忙聯聧盲陆聹忙聲掳
+                    // res指带符号的第二个操作数
                     res = res * stack.pop();
-                    // res盲赂潞氓聟篓氓卤聙res
+                    // res为全局res
                     res = stack.pop() + res;
                     break;
                 case ' ':

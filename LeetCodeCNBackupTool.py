@@ -19,6 +19,7 @@ PROBLEM_API = "/api/problems/all/"
 
 CODE_PATTERN = re.compile(r'submissionCode: \'(.*)\',\n\s*editCodeUrl')
 NAME_PATTERN = re.compile(r'href="/problems/(.*)/">')
+REPUNICODE_PATTERN = re.compile(r'\\u[0-9a-zA-Z]{4}')
 
 FILE_EXT = {
     'java': '.java',
@@ -46,7 +47,6 @@ HEADERS = {
     'Upgrade-Insecure-Requests': '1',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36'
 }
-
 
 class Account:
     __config_file_name = "config.cfg"
@@ -383,20 +383,27 @@ class Archive:
             num_files = os.listdir(file_path)
             file_name = sub_name + '_' + str(len(num_files)).zfill(2) + '_' + str(sub['runtime']) + 'ms' + FILE_EXT[sub['lang']]
 
-            with open(os.path.join(file_path, file_name), 'w', encoding='utf-8') as f:
+            with open(os.path.join(file_path, file_name), 'w') as f:
                 f.write(sub_code)
 
     def __get_submission_code_and_name(self, sub_url):
+        '''
+        爬取网页，获取代码。注意：由于获取到的代码中部分符号由Unicode编码表示，而中文注释仍为中文，所以不能简单地使用str.encode('utf-8').decode('unicode-escape')将编码转为符号，而应使用re.sub来逐个替换。
+        '''
         print('准备获取地址为' + sub_url + '的代码')
         res = self.__session.get(sub_url)
         time.sleep(5)
         assert res.status_code == 200
         res.encoding = 'utf-8'
-
+        
         sub_code = CODE_PATTERN.findall(res.text)[0]
         sub_name = NAME_PATTERN.findall(res.text)[0]
-
-        return sub_code.encode('utf-8').decode('unicode_escape'), sub_name
+        
+        def repUnicode(m):
+            strUni = m.group(0)
+            return strUni.encode('utf-8').decode('unicode-escape')
+        
+        return re.sub(REPUNICODE_PATTERN, repUnicode, sub_code), sub_name
 
 if __name__ == '__main__':
     account = Account()

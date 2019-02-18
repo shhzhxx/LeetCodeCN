@@ -7,7 +7,7 @@
  * }
  */
 class Solution {
-    // éå½æ³
+    // �ݹ鷨
     public ListNode reverseList(ListNode head) {
         if(head == null || head.next == null)
             return head;

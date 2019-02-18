@@ -4,7 +4,7 @@ class Solution {
             return 0;
 
         int primes = (n - 2) / 2 + 1;
-        // 氓聢聺氓搂聥氓聛聡猫庐戮忙聣聙忙聹聣忙聲掳茅聝陆忙聵炉莽麓聽忙聲掳
+        // 初始假设所有数都是素数
         boolean[] isNotPrime = new boolean[n];
 
         for(int i = 3;i < n;i += 2){

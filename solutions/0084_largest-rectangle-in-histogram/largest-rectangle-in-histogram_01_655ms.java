@@ -3,7 +3,7 @@ class Solution {
         int max = 0;
         int len = heights.length;
         
-        // 猫庐隆莽庐聴盲禄楼忙炉聫盲赂聙忙聽鹿忙聼卤氓颅聬盲赂潞茅芦聵莽職聞忙聹聙氓陇搂茅聺垄莽搂炉
+        // 计算以每一根柱子为高的最大面积
         for(int i = 0;i < len;++i){
             int left = i;
             int right = i;

@@ -1,6 +1,6 @@
 class Solution {
     public int search(int[] nums, int target) {
-        // Ã¨Â¿Â­Ã¤Â»Â£Ã¦Â³Â•
+        // µü´ú·¨
         int left = 0, mid, right = nums.length - 1;
 
         while(left <= right){

@@ -8,7 +8,7 @@
  * }
  */
 class Solution {
-    // è¿­ä»£ç®æ³
+    // �����㷨
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> lst = new LinkedList<>();
         Stack<TreeNode> stack = new Stack<>();

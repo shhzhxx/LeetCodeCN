@@ -8,7 +8,7 @@
  * }
  */
 class Solution {
-    // 猫驴颅盲禄拢莽庐聴忙鲁聲
+    // 迭代算法
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> lst = new LinkedList<>();
         Stack<TreeNode> stack = new Stack<>();
@@ -16,13 +16,13 @@ class Solution {
         TreeNode last = null;
         
         while(cur != null || !stack.isEmpty()){
-            // 氓聟聢氓陇聞莽聬聠氓路娄氓颅聬忙聽聭
+            // 先处理左子树
             while(cur != null){
                 stack.push(cur);
                 cur = cur.left;
             }
             
-            // 氓娄聜忙聻聹盲赂聧氓颅聵氓聹篓氓聫鲁氓颅聬忙聽聭忙聢聳氓路虏氓陇聞莽聬聠猫驴聡氓聫鲁氓颅聬忙聽聭茂录聦氓聢聶氓陇聞莽聬聠忙聽鹿猫聤聜莽聜鹿
+            // 如果不存在右子树或已处理过右子树，则处理根节点
             cur = stack.peek();
             if(cur.right == null || last == cur.right){
                 stack.pop();

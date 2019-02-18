@@ -1,6 +1,6 @@
 class Solution {
     public String multiply(String num1, String num2) {
-        // ä¿è¯num1æ¯æ°ä½è¾å°çé£ä¸ä¸ª
+        // ��֤num1����λ���ٵ���һ��
         if (num1.length() > num2.length()) {
             String tmp = num1;
             num1 = num2;
@@ -18,7 +18,7 @@ class Solution {
         int carry = 0, curUnit = 0;
 
         while(carry != 0 || curUnit < totalLen - 1) {
-            // sumåæ¬äºä¸ä¸æ¬¡çè¿ä½
+            // sum��������һ�εĽ�λ
             int sum = carry;
             int start = chs1.length - 1 - curUnit;
             start = start > 0 ? start : 0;

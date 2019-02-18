@@ -13,7 +13,7 @@ class Solution {
         int len = 1;
         ListNode curNode = head, tail;
         
-        // 猫庐隆莽庐聴茅聯戮猫隆篓茅聲驴氓潞娄
+        // 计算链表长度
         while(curNode.next != null){
             ++len;
             curNode = curNode.next;
@@ -21,7 +21,7 @@ class Solution {
         
         tail = curNode;
         curNode = head;
-        // 盲戮聥氓娄聜茂录聦氓炉鹿盲潞聨忙聹聣5盲赂陋氓聟聝莽麓聽莽職聞茅聯戮猫隆篓忙聺楼猫炉麓茂录聦莽搂禄氓聤篓4盲赂陋盲陆聧莽陆庐氓聮聦莽搂禄氓聤篓9盲赂陋盲陆聧莽陆庐莽職聞忙聲聢忙聻聹莽聸赂氓聬聦
+        // 例如，对于有5个元素的链表来说，移动4个位置和移动9个位置的效果相同
         k %= len;
         k = len - k;
         
@@ -29,7 +29,7 @@ class Solution {
             curNode = curNode.next;
         }
         
-        // 忙聴聥猫陆卢
+        // 旋转
         tail.next = head;
         head = curNode.next;
         curNode.next = null;

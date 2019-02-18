@@ -1,32 +1,32 @@
 class Solution {
     public boolean canIWin(int maxChoosableInteger, int desiredTotal) {
-        // 氓聫炉茅聙聣忙聲掳氓陇搂盲潞聨莽颅聣盲潞聨茅聵聢氓聙录茂录聦氓驴聟猫碌垄
+        // 可选数大于等于阈值，必赢
         if(maxChoosableInteger >= desiredTotal)
             return true;
 
-        // 忙聙禄氓聮聦氓掳聫盲潞聨茅聵聢氓聙录茂录聦忙虏隆忙聹聣猫碌垄氓庐露
+        // 总和小于阈值，没有赢家
         if((maxChoosableInteger * (1 + maxChoosableInteger) / 2 < desiredTotal))
             return false;
 
-        // 莽聰卤盲潞聨maxChoosableInteger盲赂聧盲录職氓陇搂盲潞聨20茂录聦忙聢聭盲禄卢氓聫炉盲禄楼盲陆驴莽聰篓32盲陆聧莽職聞int忙聺楼猫庐掳氓陆聲氓聯陋盲潞聸忙聲掳氓颅聴氓路虏莽禄聫猫垄芦氓聧聽莽聰篓
+        // 由于maxChoosableInteger不会大于20，我们可以使用32位的int来记录哪些数字已经被占用
         int used = 0;
-        // 猫庐掳氓陆聲氓聹篓key忙聝聟氓聠碌盲赂聥氓聟聢忙聣聥忙聵炉氓聬娄盲录職猫碌垄茂录聦key氓聙录氓炉鹿氓潞聰used
+        // 记录在key情况下先手是否会赢，key值对应used
         Map<Integer, Boolean> dpMap = new HashMap<>();
         return dpCanIWin(maxChoosableInteger, desiredTotal, used, dpMap);
     }
 
     public boolean dpCanIWin(int maxChoosableInteger, int desiredTotal, int used, Map<Integer, Boolean> dpMap){
-        // 氓陇聧莽聰篓盲鹿聥氓聣聧莽職聞莽禄聯忙聻聹
+        // 复用之前的结果
         if(dpMap.containsKey(used))
             return dpMap.get(used);
 
         for(int i = 1;i <= maxChoosableInteger;++i){
             int cur = 1 << (i - 1);
-            // 氓陆聯氓聣聧茅聙聣忙聥漏莽職聞忙聲掳忙聵炉氓聬娄氓聫炉莽聰篓
+            // 当前选择的数是否可用
             if((cur & used) == 0){
-                // 猫驴聶盲赂陋莽聤露忙聙聛盲赂聥忙聹聣盲赂陇莽搂聧忙聝聟氓聠碌忙聵炉莽篓鲁猫碌垄莽職聞
-                // 1. 猫娄聛忙卤聜莽職聞忙聙禄氓聙录氓路虏盲陆聨盲潞聨氓聫炉茅聙聣忙聲掳
-                // 2. 茅聙聣忙聥漏猫驴聶盲赂陋忙聲掳氓聬聨茂录聦氓聫娄盲赂聙盲赂陋莽聨漏氓庐露茅聙聣盲禄禄盲赂聙盲赂陋忙聲掳茅聝陆盲录職猫戮聯
+                // 这个状态下有两种情况是稳赢的
+                // 1. 要求的总值已低于可选数
+                // 2. 选择这个数后，另一个玩家选任一个数都会输
                 if(desiredTotal <= i || !dpCanIWin(maxChoosableInteger, desiredTotal - i, cur | used, dpMap)){
                     dpMap.put(used, true);
                     return true;

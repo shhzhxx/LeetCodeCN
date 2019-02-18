@@ -1,7 +1,7 @@
 class MinStack {
-    // 忙聰炉忙聦聛push,pop,top莽職聞忙聽聢
+    // 支持push,pop,top的栈
     private Stack<Integer> mainStack;
-    // 忙聰炉忙聦聛氓聹篓氓赂赂忙聲掳忙聴露茅聴麓氓聠聟忙拢聙莽麓垄氓聢掳忙聹聙氓掳聫氓聟聝莽麓聽莽職聞氓聧聲猫掳聝忙聽聢
+    // 支持在常数时间内检索到最小元素的单调栈
     private Stack<Integer> minStack;
 
     /** initialize your data structure here. */
@@ -12,7 +12,7 @@ class MinStack {
 
     public void push(int x) {
         mainStack.push(x);
-        // 氓庐聻茅聶聟盲赂聤忙炉聫忙卢隆push氓聫陋茅聹聙猫娄聛猫庐掳氓陆聲忙聸麓氓掳聫莽職聞氓聙录
+        // 实际上每次push只需要记录更小的值
         if(minStack.isEmpty() || minStack.peek() >= x)
             minStack.push(x);
     }

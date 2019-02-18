@@ -1,6 +1,6 @@
 class Solution {
     public int rob(int[] nums) {
-        // 盲录录盲鹿聨盲鹿聼猫路聼忙聳聬忙鲁垄茅聜拢氓楼聭忙聲掳氓聢聴氓路庐盲赂聧氓陇職
+        // 似乎也跟斐波那契数列差不多
         if(nums.length == 0)
             return 0;
         if(nums.length == 1)
@@ -10,12 +10,12 @@ class Solution {
         int canRobThis = nums[0], canNotRobThis = nums[1], res = 0;
         for(int i = 2;i < nums.length;++i){
             if(canRobThis + nums[i] > canNotRobThis){
-                // 氓娄聜忙聻聹氓聛路猫驴聶盲赂聙氓庐露
+                // 如果偷这一家
                 res = canRobThis + nums[i];
                 canRobThis = canRobThis > canNotRobThis ? canRobThis : canNotRobThis;
                 canNotRobThis = res;
             }else {
-                // 氓娄聜忙聻聹盲赂聧氓聛路猫驴聶盲赂聙氓庐露
+                // 如果不偷这一家
                 res = canNotRobThis;
                 canRobThis = canNotRobThis;
                 canNotRobThis = 0;

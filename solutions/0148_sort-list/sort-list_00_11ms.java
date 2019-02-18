@@ -14,7 +14,7 @@ class Solution {
     private ListNode partition(ListNode head){
         if(head.next == null)
             return head;
-        // 盲陆驴莽聰篓氓驴芦忙聟垄猫聤聜莽聜鹿氓炉禄氓戮聴氓陆聯氓聣聧茅聯戮猫隆篓莽職聞盲赂颅莽聜鹿
+        // 使用快慢节点寻得当前链表的中点
         ListNode fast = head, slow = head, assist = null;
         while(fast != null && fast.next != null){
             assist = slow;
@@ -22,7 +22,7 @@ class Solution {
             fast = fast.next.next;
         }
         
-        // 盲禄聨盲赂颅莽聜鹿氓聢聡忙聳颅茂录聦氓聢聠氓聣虏忙聢聬盲赂陇盲赂陋茅聯戮猫隆篓
+        // 从中点切断，分割成两个链表
         assist.next = null;
         
         ListNode left = partition(head);

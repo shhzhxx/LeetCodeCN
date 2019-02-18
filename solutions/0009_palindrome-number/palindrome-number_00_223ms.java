@@ -1,10 +1,10 @@
 class Solution {
     public boolean isPalindrome(int x) {
-        // x盲赂聧莽颅聣盲潞聨茅聸露忙聴露茂录聦忙聹聙氓聬聨盲赂聙盲陆聧盲鹿聼盲赂聧猫聝陆盲赂潞茅聸露
+        // x不等于零时，最后一位也不能为零
         if (x < 0 || (x != 0 && x % 10 == 0))
             return false;
 
-        // 茅垄聵猫搂拢盲赂颅莽職聞氓聫聧猫陆卢盲赂聙氓聧聤忙聲掳氓颅聴莽職聞忙聳鹿忙鲁聲
+        // 题解中的反转一半数字的方法
         int rx = 0;
 
         while (x > rx) {
@@ -15,7 +15,7 @@ class Solution {
         return rx == x || rx / 10 == x;
 
         
-//         // 氓聫聦莽芦炉茅聵聼氓聢聴氓颅聵氓聜篓氓聧聲盲赂陋忙聲掳盲陆聧
+//         // 双端队列存储单个数位
 //         Deque<Integer> deque = new ArrayDeque<Integer>();
 
 //         while(x != 0){
