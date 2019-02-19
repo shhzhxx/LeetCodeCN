@@ -34,7 +34,8 @@ FILE_EXT = {
     'swift': '.swift',
     'golang': '.go',
     'scala': '.scala',
-    'rust': '.rs'
+    'rust': '.rs',
+    'mysql': '.sql'
 }
 
 HEADERS = {
