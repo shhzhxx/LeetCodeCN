@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-02-19 16:19:49
+**Update Time:** 2019-02-20 19:06:18
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |<font color=#5CB85C>Easy</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
-|71|70|13|
+|73|73|14|
 
-**Total Progress:** 154 / 828
+**Total Progress:** 160 / 828
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -42,17 +42,17 @@
 |16|[3sum-closest](https://leetcode-cn.com/problems/3sum-closest)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0016_3sum-closest/)||<font color=#F0AD4E>Medium</font>|
 |17|[letter-combinations-of-a-phone-number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0017_letter-combinations-of-a-phone-number/)||<font color=#F0AD4E>Medium</font>|
 |18|[4sum](https://leetcode-cn.com/problems/4sum)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0018_4sum/)||<font color=#F0AD4E>Medium</font>|
-|19|[remove-nth-node-from-end-of-list](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list)||[:book:](https://leetcode-cn.com/articles/remove-nth-node-from-end-of-list)|<font color=#F0AD4E>Medium</font>|
+|19|[remove-nth-node-from-end-of-list](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0019_remove-nth-node-from-end-of-list/)|[:book:](https://leetcode-cn.com/articles/remove-nth-node-from-end-of-list)|<font color=#F0AD4E>Medium</font>|
 |20|[valid-parentheses](https://leetcode-cn.com/problems/valid-parentheses)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0020_valid-parentheses/)|[:book:](https://leetcode-cn.com/articles/valid-parentheses)|<font color=#5CB85C>Easy</font>|
 |21|[merge-two-sorted-lists](https://leetcode-cn.com/problems/merge-two-sorted-lists)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0021_merge-two-sorted-lists/)||<font color=#5CB85C>Easy</font>|
-|22|[generate-parentheses](https://leetcode-cn.com/problems/generate-parentheses)||[:book:](https://leetcode-cn.com/articles/generate-parentheses)|<font color=#F0AD4E>Medium</font>|
+|22|[generate-parentheses](https://leetcode-cn.com/problems/generate-parentheses)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0022_generate-parentheses/)|[:book:](https://leetcode-cn.com/articles/generate-parentheses)|<font color=#F0AD4E>Medium</font>|
 |23|[merge-k-sorted-lists](https://leetcode-cn.com/problems/merge-k-sorted-lists)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0023_merge-k-sorted-lists/)||<font color=#D9534F>Hard</font>|
 |24|[swap-nodes-in-pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0024_swap-nodes-in-pairs/)||<font color=#F0AD4E>Medium</font>|
-|25|[reverse-nodes-in-k-group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group)|||<font color=#D9534F>Hard</font>|
+|25|[reverse-nodes-in-k-group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0025_reverse-nodes-in-k-group/)||<font color=#D9534F>Hard</font>|
 |26|[remove-duplicates-from-sorted-array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0026_remove-duplicates-from-sorted-array/)|[:book:](https://leetcode-cn.com/articles/remove-duplicates-from-sorted-array)|<font color=#5CB85C>Easy</font>|
 |27|[remove-element](https://leetcode-cn.com/problems/remove-element)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0027_remove-element/)|[:book:](https://leetcode-cn.com/articles/remove-element)|<font color=#5CB85C>Easy</font>|
 |28|[implement-strstr](https://leetcode-cn.com/problems/implement-strstr)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0028_implement-strstr/)||<font color=#5CB85C>Easy</font>|
-|29|[divide-two-integers](https://leetcode-cn.com/problems/divide-two-integers)|||<font color=#F0AD4E>Medium</font>|
+|29|[divide-two-integers](https://leetcode-cn.com/problems/divide-two-integers)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0029_divide-two-integers/)||<font color=#F0AD4E>Medium</font>|
 |30|[substring-with-concatenation-of-all-words](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words)|||<font color=#D9534F>Hard</font>|
 |31|[next-permutation](https://leetcode-cn.com/problems/next-permutation)||[:book:](https://leetcode-cn.com/articles/next-permutation)|<font color=#F0AD4E>Medium</font>|
 |32|[longest-valid-parentheses](https://leetcode-cn.com/problems/longest-valid-parentheses)|||<font color=#D9534F>Hard</font>|
@@ -134,8 +134,8 @@
 |108|[convert-sorted-array-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0108_convert-sorted-array-to-binary-search-tree/)||<font color=#5CB85C>Easy</font>|
 |109|[convert-sorted-list-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree)|||<font color=#F0AD4E>Medium</font>|
 |110|[balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0110_balanced-binary-tree/)||<font color=#5CB85C>Easy</font>|
-|111|[minimum-depth-of-binary-tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree)|||<font color=#5CB85C>Easy</font>|
-|112|[path-sum](https://leetcode-cn.com/problems/path-sum)|||<font color=#5CB85C>Easy</font>|
+|111|[minimum-depth-of-binary-tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0111_minimum-depth-of-binary-tree/)||<font color=#5CB85C>Easy</font>|
+|112|[path-sum](https://leetcode-cn.com/problems/path-sum)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0112_path-sum/)||<font color=#5CB85C>Easy</font>|
 |113|[path-sum-ii](https://leetcode-cn.com/problems/path-sum-ii)|||<font color=#F0AD4E>Medium</font>|
 |114|[flatten-binary-tree-to-linked-list](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0114_flatten-binary-tree-to-linked-list/)||<font color=#F0AD4E>Medium</font>|
 |115|[distinct-subsequences](https://leetcode-cn.com/problems/distinct-subsequences)|||<font color=#D9534F>Hard</font>|
