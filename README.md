@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-02-20 19:06:18
+**Update Time:** 2019-02-21 19:14:17
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |<font color=#5CB85C>Easy</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
-|73|73|14|
+|73|77|14|
 
-**Total Progress:** 160 / 828
+**Total Progress:** 164 / 828
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -54,15 +54,15 @@
 |28|[implement-strstr](https://leetcode-cn.com/problems/implement-strstr)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0028_implement-strstr/)||<font color=#5CB85C>Easy</font>|
 |29|[divide-two-integers](https://leetcode-cn.com/problems/divide-two-integers)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0029_divide-two-integers/)||<font color=#F0AD4E>Medium</font>|
 |30|[substring-with-concatenation-of-all-words](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words)|||<font color=#D9534F>Hard</font>|
-|31|[next-permutation](https://leetcode-cn.com/problems/next-permutation)||[:book:](https://leetcode-cn.com/articles/next-permutation)|<font color=#F0AD4E>Medium</font>|
+|31|[next-permutation](https://leetcode-cn.com/problems/next-permutation)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0031_next-permutation/)|[:book:](https://leetcode-cn.com/articles/next-permutation)|<font color=#F0AD4E>Medium</font>|
 |32|[longest-valid-parentheses](https://leetcode-cn.com/problems/longest-valid-parentheses)|||<font color=#D9534F>Hard</font>|
 |33|[search-in-rotated-sorted-array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0033_search-in-rotated-sorted-array/)||<font color=#F0AD4E>Medium</font>|
-|34|[find-first-and-last-position-of-element-in-sorted-array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array)|||<font color=#F0AD4E>Medium</font>|
+|34|[find-first-and-last-position-of-element-in-sorted-array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0034_find-first-and-last-position-of-element-in-sorted-array/)||<font color=#F0AD4E>Medium</font>|
 |35|[search-insert-position](https://leetcode-cn.com/problems/search-insert-position)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0035_search-insert-position/)||<font color=#5CB85C>Easy</font>|
-|36|[valid-sudoku](https://leetcode-cn.com/problems/valid-sudoku)||[:book:](https://leetcode-cn.com/articles/valid-sudoku)|<font color=#F0AD4E>Medium</font>|
+|36|[valid-sudoku](https://leetcode-cn.com/problems/valid-sudoku)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0036_valid-sudoku/)|[:book:](https://leetcode-cn.com/articles/valid-sudoku)|<font color=#F0AD4E>Medium</font>|
 |37|[sudoku-solver](https://leetcode-cn.com/problems/sudoku-solver)|||<font color=#D9534F>Hard</font>|
 |38|[count-and-say](https://leetcode-cn.com/problems/count-and-say)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0038_count-and-say/)||<font color=#5CB85C>Easy</font>|
-|39|[combination-sum](https://leetcode-cn.com/problems/combination-sum)|||<font color=#F0AD4E>Medium</font>|
+|39|[combination-sum](https://leetcode-cn.com/problems/combination-sum)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0039_combination-sum/)||<font color=#F0AD4E>Medium</font>|
 |40|[combination-sum-ii](https://leetcode-cn.com/problems/combination-sum-ii)|||<font color=#F0AD4E>Medium</font>|
 |41|[first-missing-positive](https://leetcode-cn.com/problems/first-missing-positive)|||<font color=#D9534F>Hard</font>|
 |42|[trapping-rain-water](https://leetcode-cn.com/problems/trapping-rain-water)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0042_trapping-rain-water/)||<font color=#D9534F>Hard</font>|
