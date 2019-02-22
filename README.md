@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-02-21 19:14:17
+**Update Time:** 2019-02-22 17:42:29
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |<font color=#5CB85C>Easy</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
-|73|77|14|
+|75|85|14|
 
-**Total Progress:** 164 / 828
+**Total Progress:** 174 / 828
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -63,27 +63,27 @@
 |37|[sudoku-solver](https://leetcode-cn.com/problems/sudoku-solver)|||<font color=#D9534F>Hard</font>|
 |38|[count-and-say](https://leetcode-cn.com/problems/count-and-say)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0038_count-and-say/)||<font color=#5CB85C>Easy</font>|
 |39|[combination-sum](https://leetcode-cn.com/problems/combination-sum)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0039_combination-sum/)||<font color=#F0AD4E>Medium</font>|
-|40|[combination-sum-ii](https://leetcode-cn.com/problems/combination-sum-ii)|||<font color=#F0AD4E>Medium</font>|
+|40|[combination-sum-ii](https://leetcode-cn.com/problems/combination-sum-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0040_combination-sum-ii/)||<font color=#F0AD4E>Medium</font>|
 |41|[first-missing-positive](https://leetcode-cn.com/problems/first-missing-positive)|||<font color=#D9534F>Hard</font>|
 |42|[trapping-rain-water](https://leetcode-cn.com/problems/trapping-rain-water)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0042_trapping-rain-water/)||<font color=#D9534F>Hard</font>|
 |43|[multiply-strings](https://leetcode-cn.com/problems/multiply-strings)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0043_multiply-strings/)||<font color=#F0AD4E>Medium</font>|
 |44|[wildcard-matching](https://leetcode-cn.com/problems/wildcard-matching)|||<font color=#D9534F>Hard</font>|
 |45|[jump-game-ii](https://leetcode-cn.com/problems/jump-game-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0045_jump-game-ii/)||<font color=#D9534F>Hard</font>|
 |46|[permutations](https://leetcode-cn.com/problems/permutations)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0046_permutations/)||<font color=#F0AD4E>Medium</font>|
-|47|[permutations-ii](https://leetcode-cn.com/problems/permutations-ii)|||<font color=#F0AD4E>Medium</font>|
-|48|[rotate-image](https://leetcode-cn.com/problems/rotate-image)|||<font color=#F0AD4E>Medium</font>|
-|49|[group-anagrams](https://leetcode-cn.com/problems/group-anagrams)||[:book:](https://leetcode-cn.com/articles/group-anagrams)|<font color=#F0AD4E>Medium</font>|
-|50|[powx-n](https://leetcode-cn.com/problems/powx-n)|||<font color=#F0AD4E>Medium</font>|
+|47|[permutations-ii](https://leetcode-cn.com/problems/permutations-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0047_permutations-ii/)||<font color=#F0AD4E>Medium</font>|
+|48|[rotate-image](https://leetcode-cn.com/problems/rotate-image)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0048_rotate-image/)||<font color=#F0AD4E>Medium</font>|
+|49|[group-anagrams](https://leetcode-cn.com/problems/group-anagrams)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0049_group-anagrams/)|[:book:](https://leetcode-cn.com/articles/group-anagrams)|<font color=#F0AD4E>Medium</font>|
+|50|[powx-n](https://leetcode-cn.com/problems/powx-n)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0050_powx-n/)||<font color=#F0AD4E>Medium</font>|
 |51|[n-queens](https://leetcode-cn.com/problems/n-queens)|||<font color=#D9534F>Hard</font>|
 |52|[n-queens-ii](https://leetcode-cn.com/problems/n-queens-ii)|||<font color=#D9534F>Hard</font>|
 |53|[maximum-subarray](https://leetcode-cn.com/problems/maximum-subarray)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0053_maximum-subarray/)||<font color=#5CB85C>Easy</font>|
 |54|[spiral-matrix](https://leetcode-cn.com/problems/spiral-matrix)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0054_spiral-matrix/)||<font color=#F0AD4E>Medium</font>|
 |55|[jump-game](https://leetcode-cn.com/problems/jump-game)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0055_jump-game/)||<font color=#F0AD4E>Medium</font>|
-|56|[merge-intervals](https://leetcode-cn.com/problems/merge-intervals)|||<font color=#F0AD4E>Medium</font>|
+|56|[merge-intervals](https://leetcode-cn.com/problems/merge-intervals)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0056_merge-intervals/)||<font color=#F0AD4E>Medium</font>|
 |57|[insert-interval](https://leetcode-cn.com/problems/insert-interval)|||<font color=#D9534F>Hard</font>|
 |58|[length-of-last-word](https://leetcode-cn.com/problems/length-of-last-word)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0058_length-of-last-word/)||<font color=#5CB85C>Easy</font>|
 |59|[spiral-matrix-ii](https://leetcode-cn.com/problems/spiral-matrix-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0059_spiral-matrix-ii/)||<font color=#F0AD4E>Medium</font>|
-|60|[permutation-sequence](https://leetcode-cn.com/problems/permutation-sequence)|||<font color=#F0AD4E>Medium</font>|
+|60|[permutation-sequence](https://leetcode-cn.com/problems/permutation-sequence)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0060_permutation-sequence/)||<font color=#F0AD4E>Medium</font>|
 |61|[rotate-list](https://leetcode-cn.com/problems/rotate-list)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0061_rotate-list/)||<font color=#F0AD4E>Medium</font>|
 |62|[unique-paths](https://leetcode-cn.com/problems/unique-paths)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0062_unique-paths/)||<font color=#F0AD4E>Medium</font>|
 |63|[unique-paths-ii](https://leetcode-cn.com/problems/unique-paths-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0063_unique-paths-ii/)||<font color=#F0AD4E>Medium</font>|
@@ -96,7 +96,7 @@
 |70|[climbing-stairs](https://leetcode-cn.com/problems/climbing-stairs)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0070_climbing-stairs/)||<font color=#5CB85C>Easy</font>|
 |71|[simplify-path](https://leetcode-cn.com/problems/simplify-path)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0071_simplify-path/)||<font color=#F0AD4E>Medium</font>|
 |72|[edit-distance](https://leetcode-cn.com/problems/edit-distance)|||<font color=#D9534F>Hard</font>|
-|73|[set-matrix-zeroes](https://leetcode-cn.com/problems/set-matrix-zeroes)|||<font color=#F0AD4E>Medium</font>|
+|73|[set-matrix-zeroes](https://leetcode-cn.com/problems/set-matrix-zeroes)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0073_set-matrix-zeroes/)||<font color=#F0AD4E>Medium</font>|
 |74|[search-a-2d-matrix](https://leetcode-cn.com/problems/search-a-2d-matrix)|||<font color=#F0AD4E>Medium</font>|
 |75|[sort-colors](https://leetcode-cn.com/problems/sort-colors)|||<font color=#F0AD4E>Medium</font>|
 |76|[minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring)|||<font color=#D9534F>Hard</font>|
@@ -142,13 +142,13 @@
 |116|[populating-next-right-pointers-in-each-node](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node)|||<font color=#F0AD4E>Medium</font>|
 |117|[populating-next-right-pointers-in-each-node-ii](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii)|||<font color=#F0AD4E>Medium</font>|
 |118|[pascals-triangle](https://leetcode-cn.com/problems/pascals-triangle)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0118_pascals-triangle/)|[:book:](https://leetcode-cn.com/articles/pascals-triangle)|<font color=#5CB85C>Easy</font>|
-|119|[pascals-triangle-ii](https://leetcode-cn.com/problems/pascals-triangle-ii)|||<font color=#5CB85C>Easy</font>|
+|119|[pascals-triangle-ii](https://leetcode-cn.com/problems/pascals-triangle-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0119_pascals-triangle-ii/)||<font color=#5CB85C>Easy</font>|
 |120|[triangle](https://leetcode-cn.com/problems/triangle)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0120_triangle/)||<font color=#F0AD4E>Medium</font>|
 |121|[best-time-to-buy-and-sell-stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0121_best-time-to-buy-and-sell-stock/)|[:book:](https://leetcode-cn.com/articles/best-time-to-buy-and-sell-stock)|<font color=#5CB85C>Easy</font>|
 |122|[best-time-to-buy-and-sell-stock-ii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0122_best-time-to-buy-and-sell-stock-ii/)|[:book:](https://leetcode-cn.com/articles/best-time-to-buy-and-sell-stock-ii)|<font color=#5CB85C>Easy</font>|
 |123|[best-time-to-buy-and-sell-stock-iii](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii)|||<font color=#D9534F>Hard</font>|
 |124|[binary-tree-maximum-path-sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0124_binary-tree-maximum-path-sum/)||<font color=#D9534F>Hard</font>|
-|125|[valid-palindrome](https://leetcode-cn.com/problems/valid-palindrome)|||<font color=#5CB85C>Easy</font>|
+|125|[valid-palindrome](https://leetcode-cn.com/problems/valid-palindrome)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0125_valid-palindrome/)||<font color=#5CB85C>Easy</font>|
 |126|[word-ladder-ii](https://leetcode-cn.com/problems/word-ladder-ii)|||<font color=#D9534F>Hard</font>|
 |127|[word-ladder](https://leetcode-cn.com/problems/word-ladder)|||<font color=#F0AD4E>Medium</font>|
 |128|[longest-consecutive-sequence](https://leetcode-cn.com/problems/longest-consecutive-sequence)|||<font color=#D9534F>Hard</font>|
