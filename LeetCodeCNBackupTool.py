@@ -35,7 +35,8 @@ FILE_EXT = {
     'golang': '.go',
     'scala': '.scala',
     'rust': '.rs',
-    'mysql': '.sql'
+    'mysql': '.sql',
+    'bash': '.sh'
 }
 
 HEADERS = {

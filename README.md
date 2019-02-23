@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-02-22 17:42:29
+**Update Time:** 2019-02-23 18:33:12
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |<font color=#5CB85C>Easy</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
-|75|85|14|
+|88|87|14|
 
-**Total Progress:** 174 / 828
+**Total Progress:** 189 / 828
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -97,8 +97,8 @@
 |71|[simplify-path](https://leetcode-cn.com/problems/simplify-path)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0071_simplify-path/)||<font color=#F0AD4E>Medium</font>|
 |72|[edit-distance](https://leetcode-cn.com/problems/edit-distance)|||<font color=#D9534F>Hard</font>|
 |73|[set-matrix-zeroes](https://leetcode-cn.com/problems/set-matrix-zeroes)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0073_set-matrix-zeroes/)||<font color=#F0AD4E>Medium</font>|
-|74|[search-a-2d-matrix](https://leetcode-cn.com/problems/search-a-2d-matrix)|||<font color=#F0AD4E>Medium</font>|
-|75|[sort-colors](https://leetcode-cn.com/problems/sort-colors)|||<font color=#F0AD4E>Medium</font>|
+|74|[search-a-2d-matrix](https://leetcode-cn.com/problems/search-a-2d-matrix)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0074_search-a-2d-matrix/)||<font color=#F0AD4E>Medium</font>|
+|75|[sort-colors](https://leetcode-cn.com/problems/sort-colors)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0075_sort-colors/)||<font color=#F0AD4E>Medium</font>|
 |76|[minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring)|||<font color=#D9534F>Hard</font>|
 |77|[combinations](https://leetcode-cn.com/problems/combinations)|||<font color=#F0AD4E>Medium</font>|
 |78|[subsets](https://leetcode-cn.com/problems/subsets)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0078_subsets/)||<font color=#F0AD4E>Medium</font>|
@@ -184,40 +184,40 @@
 |164|[maximum-gap](https://leetcode-cn.com/problems/maximum-gap)|||<font color=#D9534F>Hard</font>|
 |165|[compare-version-numbers](https://leetcode-cn.com/problems/compare-version-numbers)|||<font color=#F0AD4E>Medium</font>|
 |166|[fraction-to-recurring-decimal](https://leetcode-cn.com/problems/fraction-to-recurring-decimal)|||<font color=#F0AD4E>Medium</font>|
-|167|[two-sum-ii-input-array-is-sorted](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted)||[:book:](https://leetcode-cn.com/articles/two-sum-ii-input-array-is-sorted)|<font color=#5CB85C>Easy</font>|
-|168|[excel-sheet-column-title](https://leetcode-cn.com/problems/excel-sheet-column-title)|||<font color=#5CB85C>Easy</font>|
+|167|[two-sum-ii-input-array-is-sorted](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0167_two-sum-ii-input-array-is-sorted/)|[:book:](https://leetcode-cn.com/articles/two-sum-ii-input-array-is-sorted)|<font color=#5CB85C>Easy</font>|
+|168|[excel-sheet-column-title](https://leetcode-cn.com/problems/excel-sheet-column-title)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0168_excel-sheet-column-title/)||<font color=#5CB85C>Easy</font>|
 |169|[majority-element](https://leetcode-cn.com/problems/majority-element)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0169_majority-element/)|[:book:](https://leetcode-cn.com/articles/majority-element)|<font color=#5CB85C>Easy</font>|
 |171|[excel-sheet-column-number](https://leetcode-cn.com/problems/excel-sheet-column-number)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0171_excel-sheet-column-number/)||<font color=#5CB85C>Easy</font>|
-|172|[factorial-trailing-zeroes](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|||<font color=#5CB85C>Easy</font>|
+|172|[factorial-trailing-zeroes](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0172_factorial-trailing-zeroes/)||<font color=#5CB85C>Easy</font>|
 |173|[binary-search-tree-iterator](https://leetcode-cn.com/problems/binary-search-tree-iterator)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0173_binary-search-tree-iterator/)||<font color=#F0AD4E>Medium</font>|
 |174|[dungeon-game](https://leetcode-cn.com/problems/dungeon-game)|||<font color=#D9534F>Hard</font>|
-|175|[combine-two-tables](https://leetcode-cn.com/problems/combine-two-tables)||[:book:](https://leetcode-cn.com/articles/combine-two-tables)|<font color=#5CB85C>Easy</font>|
-|176|[second-highest-salary](https://leetcode-cn.com/problems/second-highest-salary)||[:book:](https://leetcode-cn.com/articles/second-highest-salary)|<font color=#5CB85C>Easy</font>|
+|175|[combine-two-tables](https://leetcode-cn.com/problems/combine-two-tables)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0175_combine-two-tables/)|[:book:](https://leetcode-cn.com/articles/combine-two-tables)|<font color=#5CB85C>Easy</font>|
+|176|[second-highest-salary](https://leetcode-cn.com/problems/second-highest-salary)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0176_second-highest-salary/)|[:book:](https://leetcode-cn.com/articles/second-highest-salary)|<font color=#5CB85C>Easy</font>|
 |177|[nth-highest-salary](https://leetcode-cn.com/problems/nth-highest-salary)|||<font color=#F0AD4E>Medium</font>|
 |178|[rank-scores](https://leetcode-cn.com/problems/rank-scores)|||<font color=#F0AD4E>Medium</font>|
 |179|[largest-number](https://leetcode-cn.com/problems/largest-number)|||<font color=#F0AD4E>Medium</font>|
 |180|[consecutive-numbers](https://leetcode-cn.com/problems/consecutive-numbers)|||<font color=#F0AD4E>Medium</font>|
-|181|[employees-earning-more-than-their-managers](https://leetcode-cn.com/problems/employees-earning-more-than-their-managers)|||<font color=#5CB85C>Easy</font>|
+|181|[employees-earning-more-than-their-managers](https://leetcode-cn.com/problems/employees-earning-more-than-their-managers)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0181_employees-earning-more-than-their-managers/)||<font color=#5CB85C>Easy</font>|
 |182|[duplicate-emails](https://leetcode-cn.com/problems/duplicate-emails)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0182_duplicate-emails/)|[:book:](https://leetcode-cn.com/articles/duplicate-emails)|<font color=#5CB85C>Easy</font>|
-|183|[customers-who-never-order](https://leetcode-cn.com/problems/customers-who-never-order)||[:book:](https://leetcode-cn.com/articles/customers-who-never-order)|<font color=#5CB85C>Easy</font>|
+|183|[customers-who-never-order](https://leetcode-cn.com/problems/customers-who-never-order)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0183_customers-who-never-order/)|[:book:](https://leetcode-cn.com/articles/customers-who-never-order)|<font color=#5CB85C>Easy</font>|
 |184|[department-highest-salary](https://leetcode-cn.com/problems/department-highest-salary)|||<font color=#F0AD4E>Medium</font>|
 |185|[department-top-three-salaries](https://leetcode-cn.com/problems/department-top-three-salaries)|||<font color=#D9534F>Hard</font>|
 |187|[repeated-dna-sequences](https://leetcode-cn.com/problems/repeated-dna-sequences)|||<font color=#F0AD4E>Medium</font>|
 |188|[best-time-to-buy-and-sell-stock-iv](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv)|||<font color=#D9534F>Hard</font>|
 |189|[rotate-array](https://leetcode-cn.com/problems/rotate-array)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0189_rotate-array/)||<font color=#5CB85C>Easy</font>|
-|190|[reverse-bits](https://leetcode-cn.com/problems/reverse-bits)|||<font color=#5CB85C>Easy</font>|
-|191|[number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits)|||<font color=#5CB85C>Easy</font>|
+|190|[reverse-bits](https://leetcode-cn.com/problems/reverse-bits)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0190_reverse-bits/)||<font color=#5CB85C>Easy</font>|
+|191|[number-of-1-bits](https://leetcode-cn.com/problems/number-of-1-bits)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0191_number-of-1-bits/)||<font color=#5CB85C>Easy</font>|
 |192|[word-frequency](https://leetcode-cn.com/problems/word-frequency)|||<font color=#F0AD4E>Medium</font>|
-|193|[valid-phone-numbers](https://leetcode-cn.com/problems/valid-phone-numbers)|||<font color=#5CB85C>Easy</font>|
+|193|[valid-phone-numbers](https://leetcode-cn.com/problems/valid-phone-numbers)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0193_valid-phone-numbers/)||<font color=#5CB85C>Easy</font>|
 |194|[transpose-file](https://leetcode-cn.com/problems/transpose-file)|||<font color=#F0AD4E>Medium</font>|
 |195|[tenth-line](https://leetcode-cn.com/problems/tenth-line)|||<font color=#5CB85C>Easy</font>|
-|196|[delete-duplicate-emails](https://leetcode-cn.com/problems/delete-duplicate-emails)||[:book:](https://leetcode-cn.com/articles/delete-duplicate-emails)|<font color=#5CB85C>Easy</font>|
-|197|[rising-temperature](https://leetcode-cn.com/problems/rising-temperature)||[:book:](https://leetcode-cn.com/articles/rising-temperature)|<font color=#5CB85C>Easy</font>|
+|196|[delete-duplicate-emails](https://leetcode-cn.com/problems/delete-duplicate-emails)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0196_delete-duplicate-emails/)|[:book:](https://leetcode-cn.com/articles/delete-duplicate-emails)|<font color=#5CB85C>Easy</font>|
+|197|[rising-temperature](https://leetcode-cn.com/problems/rising-temperature)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0197_rising-temperature/)|[:book:](https://leetcode-cn.com/articles/rising-temperature)|<font color=#5CB85C>Easy</font>|
 |198|[house-robber](https://leetcode-cn.com/problems/house-robber)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0198_house-robber/)||<font color=#5CB85C>Easy</font>|
 |199|[binary-tree-right-side-view](https://leetcode-cn.com/problems/binary-tree-right-side-view)|||<font color=#F0AD4E>Medium</font>|
 |200|[number-of-islands](https://leetcode-cn.com/problems/number-of-islands)|||<font color=#F0AD4E>Medium</font>|
 |201|[bitwise-and-of-numbers-range](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range)|||<font color=#F0AD4E>Medium</font>|
-|202|[happy-number](https://leetcode-cn.com/problems/happy-number)|||<font color=#5CB85C>Easy</font>|
+|202|[happy-number](https://leetcode-cn.com/problems/happy-number)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0202_happy-number/)||<font color=#5CB85C>Easy</font>|
 |203|[remove-linked-list-elements](https://leetcode-cn.com/problems/remove-linked-list-elements)|||<font color=#5CB85C>Easy</font>|
 |204|[count-primes](https://leetcode-cn.com/problems/count-primes)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0204_count-primes/)||<font color=#5CB85C>Easy</font>|
 |205|[isomorphic-strings](https://leetcode-cn.com/problems/isomorphic-strings)|||<font color=#5CB85C>Easy</font>|
