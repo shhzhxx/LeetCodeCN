@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-02-24 20:08:43
+**Update Time:** 2019-02-27 16:56:26
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |<font color=#5CB85C>Easy</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
-|89|87|14|
+|90|87|14|
 
-**Total Progress:** 190 / 828
+**Total Progress:** 191 / 832
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -375,7 +375,7 @@
 |423|[reconstruct-original-digits-from-english](https://leetcode-cn.com/problems/reconstruct-original-digits-from-english)|||<font color=#F0AD4E>Medium</font>|
 |424|[longest-repeating-character-replacement](https://leetcode-cn.com/problems/longest-repeating-character-replacement)|||<font color=#F0AD4E>Medium</font>|
 |427|[construct-quad-tree](https://leetcode-cn.com/problems/construct-quad-tree)|||<font color=#5CB85C>Easy</font>|
-|429|[n-ary-tree-level-order-traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal)|||<font color=#5CB85C>Easy</font>|
+|429|[n-ary-tree-level-order-traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0429_n-ary-tree-level-order-traversal/)||<font color=#5CB85C>Easy</font>|
 |430|[flatten-a-multilevel-doubly-linked-list](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list)|||<font color=#F0AD4E>Medium</font>|
 |432|[all-oone-data-structure](https://leetcode-cn.com/problems/all-oone-data-structure)|||<font color=#D9534F>Hard</font>|
 |433|[minimum-genetic-mutation](https://leetcode-cn.com/problems/minimum-genetic-mutation)|||<font color=#F0AD4E>Medium</font>|
@@ -401,7 +401,7 @@
 |455|[assign-cookies](https://leetcode-cn.com/problems/assign-cookies)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0455_assign-cookies/)||<font color=#5CB85C>Easy</font>|
 |456|[132-pattern](https://leetcode-cn.com/problems/132-pattern)|||<font color=#F0AD4E>Medium</font>|
 |457|[circular-array-loop](https://leetcode-cn.com/problems/circular-array-loop)|||<font color=#F0AD4E>Medium</font>|
-|458|[poor-pigs](https://leetcode-cn.com/problems/poor-pigs)|||<font color=#5CB85C>Easy</font>|
+|458|[poor-pigs](https://leetcode-cn.com/problems/poor-pigs)|||<font color=#D9534F>Hard</font>|
 |459|[repeated-substring-pattern](https://leetcode-cn.com/problems/repeated-substring-pattern)|||<font color=#5CB85C>Easy</font>|
 |460|[lfu-cache](https://leetcode-cn.com/problems/lfu-cache)|||<font color=#D9534F>Hard</font>|
 |461|[hamming-distance](https://leetcode-cn.com/problems/hamming-distance)|||<font color=#5CB85C>Easy</font>|
@@ -852,3 +852,7 @@
 |994|[rotting-oranges](https://leetcode-cn.com/problems/rotting-oranges)||[:book:](https://leetcode-cn.com/articles/rotting-oranges)|<font color=#5CB85C>Easy</font>|
 |995|[minimum-number-of-k-consecutive-bit-flips](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips)||[:book:](https://leetcode-cn.com/articles/minimum-number-of-k-consecutive-bit-flips)|<font color=#D9534F>Hard</font>|
 |996|[number-of-squareful-arrays](https://leetcode-cn.com/problems/number-of-squareful-arrays)||[:book:](https://leetcode-cn.com/articles/number-of-squareful-arrays)|<font color=#D9534F>Hard</font>|
+|997|[find-the-town-judge](https://leetcode-cn.com/problems/find-the-town-judge)|||<font color=#5CB85C>Easy</font>|
+|998|[maximum-binary-tree-ii](https://leetcode-cn.com/problems/maximum-binary-tree-ii)|||<font color=#F0AD4E>Medium</font>|
+|999|[available-captures-for-rook](https://leetcode-cn.com/problems/available-captures-for-rook)|||<font color=#5CB85C>Easy</font>|
+|1001|[grid-illumination](https://leetcode-cn.com/problems/grid-illumination)|||<font color=#D9534F>Hard</font>|
