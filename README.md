@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-02-27 16:56:26
+**Update Time:** 2019-02-28 16:33:57
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |<font color=#5CB85C>Easy</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
-|90|87|14|
+|91|87|14|
 
-**Total Progress:** 191 / 832
+**Total Progress:** 192 / 832
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -220,7 +220,7 @@
 |202|[happy-number](https://leetcode-cn.com/problems/happy-number)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0202_happy-number/)||<font color=#5CB85C>Easy</font>|
 |203|[remove-linked-list-elements](https://leetcode-cn.com/problems/remove-linked-list-elements)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0203_remove-linked-list-elements/)||<font color=#5CB85C>Easy</font>|
 |204|[count-primes](https://leetcode-cn.com/problems/count-primes)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0204_count-primes/)||<font color=#5CB85C>Easy</font>|
-|205|[isomorphic-strings](https://leetcode-cn.com/problems/isomorphic-strings)|||<font color=#5CB85C>Easy</font>|
+|205|[isomorphic-strings](https://leetcode-cn.com/problems/isomorphic-strings)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0205_isomorphic-strings/)||<font color=#5CB85C>Easy</font>|
 |206|[reverse-linked-list](https://leetcode-cn.com/problems/reverse-linked-list)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0206_reverse-linked-list/)||<font color=#5CB85C>Easy</font>|
 |207|[course-schedule](https://leetcode-cn.com/problems/course-schedule)|||<font color=#F0AD4E>Medium</font>|
 |208|[implement-trie-prefix-tree](https://leetcode-cn.com/problems/implement-trie-prefix-tree)|||<font color=#F0AD4E>Medium</font>|
