@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-02-28 16:33:57
+**Update Time:** 2019-03-12 17:07:01
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |<font color=#5CB85C>Easy</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
-|91|87|14|
+|91|88|14|
 
-**Total Progress:** 192 / 832
+**Total Progress:** 193 / 837
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -100,7 +100,7 @@
 |74|[search-a-2d-matrix](https://leetcode-cn.com/problems/search-a-2d-matrix)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0074_search-a-2d-matrix/)||<font color=#F0AD4E>Medium</font>|
 |75|[sort-colors](https://leetcode-cn.com/problems/sort-colors)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0075_sort-colors/)||<font color=#F0AD4E>Medium</font>|
 |76|[minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring)|||<font color=#D9534F>Hard</font>|
-|77|[combinations](https://leetcode-cn.com/problems/combinations)|||<font color=#F0AD4E>Medium</font>|
+|77|[combinations](https://leetcode-cn.com/problems/combinations)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0077_combinations/)||<font color=#F0AD4E>Medium</font>|
 |78|[subsets](https://leetcode-cn.com/problems/subsets)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0078_subsets/)||<font color=#F0AD4E>Medium</font>|
 |79|[word-search](https://leetcode-cn.com/problems/word-search)|||<font color=#F0AD4E>Medium</font>|
 |80|[remove-duplicates-from-sorted-array-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii)|||<font color=#F0AD4E>Medium</font>|
@@ -557,13 +557,13 @@
 |676|[implement-magic-dictionary](https://leetcode-cn.com/problems/implement-magic-dictionary)|||<font color=#F0AD4E>Medium</font>|
 |677|[map-sum-pairs](https://leetcode-cn.com/problems/map-sum-pairs)|||<font color=#F0AD4E>Medium</font>|
 |678|[valid-parenthesis-string](https://leetcode-cn.com/problems/valid-parenthesis-string)|||<font color=#F0AD4E>Medium</font>|
-|679|[24-game](https://leetcode-cn.com/problems/24-game)|||<font color=#D9534F>Hard</font>|
+|679|[24-game](https://leetcode-cn.com/problems/24-game)||[:book:](https://leetcode-cn.com/articles/24-game)|<font color=#D9534F>Hard</font>|
 |680|[valid-palindrome-ii](https://leetcode-cn.com/problems/valid-palindrome-ii)|||<font color=#5CB85C>Easy</font>|
 |682|[baseball-game](https://leetcode-cn.com/problems/baseball-game)||[:book:](https://leetcode-cn.com/articles/baseball-game)|<font color=#5CB85C>Easy</font>|
 |684|[redundant-connection](https://leetcode-cn.com/problems/redundant-connection)|||<font color=#F0AD4E>Medium</font>|
 |685|[redundant-connection-ii](https://leetcode-cn.com/problems/redundant-connection-ii)|||<font color=#D9534F>Hard</font>|
 |686|[repeated-string-match](https://leetcode-cn.com/problems/repeated-string-match)|||<font color=#5CB85C>Easy</font>|
-|687|[longest-univalue-path](https://leetcode-cn.com/problems/longest-univalue-path)|||<font color=#5CB85C>Easy</font>|
+|687|[longest-univalue-path](https://leetcode-cn.com/problems/longest-univalue-path)||[:book:](https://leetcode-cn.com/articles/longest-univalue-path)|<font color=#5CB85C>Easy</font>|
 |688|[knight-probability-in-chessboard](https://leetcode-cn.com/problems/knight-probability-in-chessboard)|||<font color=#F0AD4E>Medium</font>|
 |689|[maximum-sum-of-3-non-overlapping-subarrays](https://leetcode-cn.com/problems/maximum-sum-of-3-non-overlapping-subarrays)|||<font color=#D9534F>Hard</font>|
 |690|[employee-importance](https://leetcode-cn.com/problems/employee-importance)|||<font color=#5CB85C>Easy</font>|
@@ -828,7 +828,7 @@
 |970|[powerful-integers](https://leetcode-cn.com/problems/powerful-integers)||[:book:](https://leetcode-cn.com/articles/powerful-integers)|<font color=#5CB85C>Easy</font>|
 |971|[flip-binary-tree-to-match-preorder-traversal](https://leetcode-cn.com/problems/flip-binary-tree-to-match-preorder-traversal)||[:book:](https://leetcode-cn.com/articles/flip-binary-tree-to-match-preorder-traversal)|<font color=#F0AD4E>Medium</font>|
 |972|[equal-rational-numbers](https://leetcode-cn.com/problems/equal-rational-numbers)||[:book:](https://leetcode-cn.com/articles/equal-rational-numbers)|<font color=#D9534F>Hard</font>|
-|973|[k-closest-points-to-origin](https://leetcode-cn.com/problems/k-closest-points-to-origin)||[:book:](https://leetcode-cn.com/articles/k-closest-points-to-origin)|<font color=#5CB85C>Easy</font>|
+|973|[k-closest-points-to-origin](https://leetcode-cn.com/problems/k-closest-points-to-origin)||[:book:](https://leetcode-cn.com/articles/k-closest-points-to-origin)|<font color=#F0AD4E>Medium</font>|
 |974|[subarray-sums-divisible-by-k](https://leetcode-cn.com/problems/subarray-sums-divisible-by-k)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0974_subarray-sums-divisible-by-k/)|[:book:](https://leetcode-cn.com/articles/subarray-sums-divisible-by-k)|<font color=#F0AD4E>Medium</font>|
 |975|[odd-even-jump](https://leetcode-cn.com/problems/odd-even-jump)||[:book:](https://leetcode-cn.com/articles/odd-even-jump)|<font color=#D9534F>Hard</font>|
 |976|[largest-perimeter-triangle](https://leetcode-cn.com/problems/largest-perimeter-triangle)||[:book:](https://leetcode-cn.com/articles/largest-perimeter-triangle)|<font color=#5CB85C>Easy</font>|
@@ -855,4 +855,9 @@
 |997|[find-the-town-judge](https://leetcode-cn.com/problems/find-the-town-judge)|||<font color=#5CB85C>Easy</font>|
 |998|[maximum-binary-tree-ii](https://leetcode-cn.com/problems/maximum-binary-tree-ii)|||<font color=#F0AD4E>Medium</font>|
 |999|[available-captures-for-rook](https://leetcode-cn.com/problems/available-captures-for-rook)|||<font color=#5CB85C>Easy</font>|
+|1000|[minimum-cost-to-merge-stones](https://leetcode-cn.com/problems/minimum-cost-to-merge-stones)|||<font color=#D9534F>Hard</font>|
 |1001|[grid-illumination](https://leetcode-cn.com/problems/grid-illumination)|||<font color=#D9534F>Hard</font>|
+|1002|[find-common-characters](https://leetcode-cn.com/problems/find-common-characters)|||<font color=#5CB85C>Easy</font>|
+|1003|[check-if-word-is-valid-after-substitutions](https://leetcode-cn.com/problems/check-if-word-is-valid-after-substitutions)|||<font color=#F0AD4E>Medium</font>|
+|1004|[max-consecutive-ones-iii](https://leetcode-cn.com/problems/max-consecutive-ones-iii)|||<font color=#F0AD4E>Medium</font>|
+|1008|[construct-binary-search-tree-from-preorder-traversal](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal)|||<font color=#F0AD4E>Medium</font>|
