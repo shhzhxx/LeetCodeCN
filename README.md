@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-03-15 22:16:06
+**Update Time:** 2019-03-16 20:49:00
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |<font color=#5CB85C>Easy</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
-|99|92|14|
+|99|97|14|
 
-**Total Progress:** 205 / 840
+**Total Progress:** 210 / 840
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -102,7 +102,7 @@
 |76|[minimum-window-substring](https://leetcode-cn.com/problems/minimum-window-substring)|||<font color=#D9534F>Hard</font>|
 |77|[combinations](https://leetcode-cn.com/problems/combinations)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0077_combinations/)||<font color=#F0AD4E>Medium</font>|
 |78|[subsets](https://leetcode-cn.com/problems/subsets)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0078_subsets/)||<font color=#F0AD4E>Medium</font>|
-|79|[word-search](https://leetcode-cn.com/problems/word-search)|||<font color=#F0AD4E>Medium</font>|
+|79|[word-search](https://leetcode-cn.com/problems/word-search)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0079_word-search/)||<font color=#F0AD4E>Medium</font>|
 |80|[remove-duplicates-from-sorted-array-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0080_remove-duplicates-from-sorted-array-ii/)||<font color=#F0AD4E>Medium</font>|
 |81|[search-in-rotated-sorted-array-ii](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii)|||<font color=#F0AD4E>Medium</font>|
 |82|[remove-duplicates-from-sorted-list-ii](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0082_remove-duplicates-from-sorted-list-ii/)||<font color=#F0AD4E>Medium</font>|
@@ -115,17 +115,17 @@
 |89|[gray-code](https://leetcode-cn.com/problems/gray-code)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0089_gray-code/)||<font color=#F0AD4E>Medium</font>|
 |90|[subsets-ii](https://leetcode-cn.com/problems/subsets-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0090_subsets-ii/)||<font color=#F0AD4E>Medium</font>|
 |91|[decode-ways](https://leetcode-cn.com/problems/decode-ways)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0091_decode-ways/)||<font color=#F0AD4E>Medium</font>|
-|92|[reverse-linked-list-ii](https://leetcode-cn.com/problems/reverse-linked-list-ii)|||<font color=#F0AD4E>Medium</font>|
-|93|[restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses)|||<font color=#F0AD4E>Medium</font>|
+|92|[reverse-linked-list-ii](https://leetcode-cn.com/problems/reverse-linked-list-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0092_reverse-linked-list-ii/)||<font color=#F0AD4E>Medium</font>|
+|93|[restore-ip-addresses](https://leetcode-cn.com/problems/restore-ip-addresses)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0093_restore-ip-addresses/)||<font color=#F0AD4E>Medium</font>|
 |94|[binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0094_binary-tree-inorder-traversal/)||<font color=#F0AD4E>Medium</font>|
 |95|[unique-binary-search-trees-ii](https://leetcode-cn.com/problems/unique-binary-search-trees-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0095_unique-binary-search-trees-ii/)||<font color=#F0AD4E>Medium</font>|
 |96|[unique-binary-search-trees](https://leetcode-cn.com/problems/unique-binary-search-trees)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0096_unique-binary-search-trees/)||<font color=#F0AD4E>Medium</font>|
 |97|[interleaving-string](https://leetcode-cn.com/problems/interleaving-string)|||<font color=#D9534F>Hard</font>|
-|98|[validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree)|||<font color=#F0AD4E>Medium</font>|
+|98|[validate-binary-search-tree](https://leetcode-cn.com/problems/validate-binary-search-tree)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0098_validate-binary-search-tree/)||<font color=#F0AD4E>Medium</font>|
 |99|[recover-binary-search-tree](https://leetcode-cn.com/problems/recover-binary-search-tree)|||<font color=#D9534F>Hard</font>|
 |100|[same-tree](https://leetcode-cn.com/problems/same-tree)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0100_same-tree/)||<font color=#5CB85C>Easy</font>|
 |101|[symmetric-tree](https://leetcode-cn.com/problems/symmetric-tree)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0101_symmetric-tree/)|[:book:](https://leetcode-cn.com/articles/symmetric-tree)|<font color=#5CB85C>Easy</font>|
-|102|[binary-tree-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal)|||<font color=#F0AD4E>Medium</font>|
+|102|[binary-tree-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0102_binary-tree-level-order-traversal/)||<font color=#F0AD4E>Medium</font>|
 |103|[binary-tree-zigzag-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0103_binary-tree-zigzag-level-order-traversal/)||<font color=#F0AD4E>Medium</font>|
 |104|[maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0104_maximum-depth-of-binary-tree/)|[:book:](https://leetcode-cn.com/articles/maximum-depth-of-binary-tree)|<font color=#5CB85C>Easy</font>|
 |105|[construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|||<font color=#F0AD4E>Medium</font>|
