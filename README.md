@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-03-16 20:49:00
+**Update Time:** 2019-03-16 22:33:38
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |<font color=#5CB85C>Easy</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
-|99|97|14|
+|103|97|14|
 
-**Total Progress:** 210 / 840
+**Total Progress:** 214 / 840
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -271,11 +271,11 @@
 |278|[first-bad-version](https://leetcode-cn.com/problems/first-bad-version)|||<font color=#5CB85C>Easy</font>|
 |279|[perfect-squares](https://leetcode-cn.com/problems/perfect-squares)|||<font color=#F0AD4E>Medium</font>|
 |282|[expression-add-operators](https://leetcode-cn.com/problems/expression-add-operators)|||<font color=#D9534F>Hard</font>|
-|283|[move-zeroes](https://leetcode-cn.com/problems/move-zeroes)|||<font color=#5CB85C>Easy</font>|
+|283|[move-zeroes](https://leetcode-cn.com/problems/move-zeroes)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0283_move-zeroes/)||<font color=#5CB85C>Easy</font>|
 |284|[peeking-iterator](https://leetcode-cn.com/problems/peeking-iterator)|||<font color=#F0AD4E>Medium</font>|
 |287|[find-the-duplicate-number](https://leetcode-cn.com/problems/find-the-duplicate-number)|||<font color=#F0AD4E>Medium</font>|
 |289|[game-of-life](https://leetcode-cn.com/problems/game-of-life)|||<font color=#F0AD4E>Medium</font>|
-|290|[word-pattern](https://leetcode-cn.com/problems/word-pattern)|||<font color=#5CB85C>Easy</font>|
+|290|[word-pattern](https://leetcode-cn.com/problems/word-pattern)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0290_word-pattern/)||<font color=#5CB85C>Easy</font>|
 |292|[nim-game](https://leetcode-cn.com/problems/nim-game)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0292_nim-game/)|[:book:](https://leetcode-cn.com/articles/nim-game)|<font color=#5CB85C>Easy</font>|
 |295|[find-median-from-data-stream](https://leetcode-cn.com/problems/find-median-from-data-stream)|||<font color=#D9534F>Hard</font>|
 |297|[serialize-and-deserialize-binary-tree](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree)|||<font color=#D9534F>Hard</font>|
@@ -297,7 +297,7 @@
 |321|[create-maximum-number](https://leetcode-cn.com/problems/create-maximum-number)|||<font color=#D9534F>Hard</font>|
 |322|[coin-change](https://leetcode-cn.com/problems/coin-change)|||<font color=#F0AD4E>Medium</font>|
 |324|[wiggle-sort-ii](https://leetcode-cn.com/problems/wiggle-sort-ii)|||<font color=#F0AD4E>Medium</font>|
-|326|[power-of-three](https://leetcode-cn.com/problems/power-of-three)|||<font color=#5CB85C>Easy</font>|
+|326|[power-of-three](https://leetcode-cn.com/problems/power-of-three)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0326_power-of-three/)||<font color=#5CB85C>Easy</font>|
 |327|[count-of-range-sum](https://leetcode-cn.com/problems/count-of-range-sum)|||<font color=#D9534F>Hard</font>|
 |328|[odd-even-linked-list](https://leetcode-cn.com/problems/odd-even-linked-list)|||<font color=#F0AD4E>Medium</font>|
 |329|[longest-increasing-path-in-a-matrix](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix)|||<font color=#D9534F>Hard</font>|
@@ -313,7 +313,7 @@
 |342|[power-of-four](https://leetcode-cn.com/problems/power-of-four)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0342_power-of-four/)||<font color=#5CB85C>Easy</font>|
 |343|[integer-break](https://leetcode-cn.com/problems/integer-break)|||<font color=#F0AD4E>Medium</font>|
 |344|[reverse-string](https://leetcode-cn.com/problems/reverse-string)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0344_reverse-string/)||<font color=#5CB85C>Easy</font>|
-|345|[reverse-vowels-of-a-string](https://leetcode-cn.com/problems/reverse-vowels-of-a-string)|||<font color=#5CB85C>Easy</font>|
+|345|[reverse-vowels-of-a-string](https://leetcode-cn.com/problems/reverse-vowels-of-a-string)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0345_reverse-vowels-of-a-string/)||<font color=#5CB85C>Easy</font>|
 |347|[top-k-frequent-elements](https://leetcode-cn.com/problems/top-k-frequent-elements)|||<font color=#F0AD4E>Medium</font>|
 |349|[intersection-of-two-arrays](https://leetcode-cn.com/problems/intersection-of-two-arrays)|||<font color=#5CB85C>Easy</font>|
 |350|[intersection-of-two-arrays-ii](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii)|||<font color=#5CB85C>Easy</font>|
