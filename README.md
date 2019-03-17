@@ -1,6 +1,6 @@
 ## My LeetCode Solution Archive
 
-**Update Time:** 2019-03-16 22:33:38
+**Update Time:** 2019-03-17 15:41:22
 
 > Based on [bonfy's work](https://github.com/bonfy/leetcode)
 
@@ -18,9 +18,9 @@
 ||SOLVED||
 |:-:|:-:|:-:|
 |<font color=#5CB85C>Easy</font>|<font color=#F0AD4E>Medium</font>|<font color=#D9534F>Hard</font>|
-|103|97|14|
+|103|100|14|
 
-**Total Progress:** 214 / 840
+**Total Progress:** 217 / 840
 
 |ID|Title|Solution|Article|Difficulty|
 |:-:|:-:|:-:|:-:|:-:|
@@ -128,11 +128,11 @@
 |102|[binary-tree-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0102_binary-tree-level-order-traversal/)||<font color=#F0AD4E>Medium</font>|
 |103|[binary-tree-zigzag-level-order-traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0103_binary-tree-zigzag-level-order-traversal/)||<font color=#F0AD4E>Medium</font>|
 |104|[maximum-depth-of-binary-tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0104_maximum-depth-of-binary-tree/)|[:book:](https://leetcode-cn.com/articles/maximum-depth-of-binary-tree)|<font color=#5CB85C>Easy</font>|
-|105|[construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|||<font color=#F0AD4E>Medium</font>|
-|106|[construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)|||<font color=#F0AD4E>Medium</font>|
+|105|[construct-binary-tree-from-preorder-and-inorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0105_construct-binary-tree-from-preorder-and-inorder-traversal/)||<font color=#F0AD4E>Medium</font>|
+|106|[construct-binary-tree-from-inorder-and-postorder-traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0106_construct-binary-tree-from-inorder-and-postorder-traversal/)||<font color=#F0AD4E>Medium</font>|
 |107|[binary-tree-level-order-traversal-ii](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0107_binary-tree-level-order-traversal-ii/)||<font color=#5CB85C>Easy</font>|
 |108|[convert-sorted-array-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0108_convert-sorted-array-to-binary-search-tree/)||<font color=#5CB85C>Easy</font>|
-|109|[convert-sorted-list-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree)|||<font color=#F0AD4E>Medium</font>|
+|109|[convert-sorted-list-to-binary-search-tree](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0109_convert-sorted-list-to-binary-search-tree/)||<font color=#F0AD4E>Medium</font>|
 |110|[balanced-binary-tree](https://leetcode-cn.com/problems/balanced-binary-tree)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0110_balanced-binary-tree/)||<font color=#5CB85C>Easy</font>|
 |111|[minimum-depth-of-binary-tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0111_minimum-depth-of-binary-tree/)||<font color=#5CB85C>Easy</font>|
 |112|[path-sum](https://leetcode-cn.com/problems/path-sum)|[:bulb:](https://github.com/shhzhxx/LeetCodeCN/blob/master/solutions/0112_path-sum/)||<font color=#5CB85C>Easy</font>|
